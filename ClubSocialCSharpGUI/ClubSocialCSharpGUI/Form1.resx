@@ -1,0 +1,3777 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="comboBoxSuscripcionSocioAfiliar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 336</value>
+  </data>
+  <data name="&gt;&gt;botonAgregarAdicionAniadirFacturaSocio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBoxSocioRAniadirFacturaPersonaA1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rayita2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tablaAdicionesAniadirFacturaSocio.Parent" xml:space="preserve">
+    <value>panelAniadirFacturaSocio</value>
+  </data>
+  <data name="&gt;&gt;labelFondosDisponiblesSocio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxCedulaListarFacturaSocio.Name" xml:space="preserve">
+    <value>textBoxCedulaListarFacturaSocio</value>
+  </data>
+  <data name="comboBoxProductoAniadirFacturaPersonaA.Items" xml:space="preserve">
+    <value>Perrito caliente</value>
+  </data>
+  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelAfiliarPersonaAutorizada.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label24.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;button8.Name" xml:space="preserve">
+    <value>button8</value>
+  </data>
+  <data name="&gt;&gt;comboBoxSocioRAniadirFacturaPersonaA1.Name" xml:space="preserve">
+    <value>comboBoxSocioRAniadirFacturaPersonaA1</value>
+  </data>
+  <data name="&gt;&gt;comboBoxListarPersonaA.Name" xml:space="preserve">
+    <value>comboBoxListarPersonaA</value>
+  </data>
+  <data name="botonVerPagarFacturasPersonaAutorizada.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 197</value>
+  </data>
+  <data name="&gt;&gt;botonAniadirFacturaPersonaA.Name" xml:space="preserve">
+    <value>botonAniadirFacturaPersonaA</value>
+  </data>
+  <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;rayita3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panelAfiliarSocio.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label17.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn4.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="&gt;&gt;labelAdicionAniadirFacturaSocio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label17.Parent" xml:space="preserve">
+    <value>panelAniadirFacturaSocio</value>
+  </data>
+  <data name="&gt;&gt;textBoxFondosListarFacturaSocio.Name" xml:space="preserve">
+    <value>textBoxFondosListarFacturaSocio</value>
+  </data>
+  <data name="&gt;&gt;labelAniadirFacturaSocio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBox2.Items3" xml:space="preserve">
+    <value>Gaseosa (200ml)</value>
+  </data>
+  <data name="panelContenedorBotonesPersonaAutorizada.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;label10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="textBoxFondosListarFacturaSocio.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn2.HeaderText" xml:space="preserve">
+    <value>Valor</value>
+  </data>
+  <data name="&gt;&gt;button4.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;panelAniadirFacturaPersonaAu.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label25.Parent" xml:space="preserve">
+    <value>panelAniadirFacturaPersonaAu</value>
+  </data>
+  <data name="&gt;&gt;botonCancelarAniadirFactura.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tablaListarPersonaA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>291, 184</value>
+  </data>
+  <data name="comboBox2.Items" xml:space="preserve">
+    <value>Perrito caliente</value>
+  </data>
+  <data name="&gt;&gt;textBoxValorAniadirFacturaPersonaA.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 8</value>
+  </data>
+  <data name="labelSocioResponsablePersonaA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 92</value>
+  </data>
+  <data name="panelListarFacturasSocio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 495</value>
+  </data>
+  <data name="&gt;&gt;textBoxValorAniadirFactura.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelAniadirFacturaSocio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>149, 48</value>
+  </data>
+  <data name="comboBoxGramajeAzucar.Items2" xml:space="preserve">
+    <value>10g</value>
+  </data>
+  <data name="&gt;&gt;tablaAdicionesAniadirFacturaSocio.Name" xml:space="preserve">
+    <value>tablaAdicionesAniadirFacturaSocio</value>
+  </data>
+  <data name="&gt;&gt;comboBoxSocioAniadirFactura.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn11.HeaderText" xml:space="preserve">
+    <value>Descripcion</value>
+  </data>
+  <data name="&gt;&gt;botonPagarListarFacturaSocio.Parent" xml:space="preserve">
+    <value>panelListarFacturasSocio</value>
+  </data>
+  <data name="&gt;&gt;textBoxNombreSocioAfiliar.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="tablaListarFacturaPersonaA.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="botonComboBoxCancelarBebida.Location" type="System.Drawing.Point, System.Drawing">
+    <value>61, 59</value>
+  </data>
+  <data name="&gt;&gt;ColumnaSuscripcionSocio.Name" xml:space="preserve">
+    <value>ColumnaSuscripcionSocio</value>
+  </data>
+  <data name="tablaAdicionesAniadirFacturaPersonaA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>326, 288</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn5.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn5</value>
+  </data>
+  <data name="&gt;&gt;labelAdicionAniadirFacturaPA.Name" xml:space="preserve">
+    <value>labelAdicionAniadirFacturaPA</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button2.Name" xml:space="preserve">
+    <value>button2</value>
+  </data>
+  <data name="&gt;&gt;label13.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="botonAgregarAdicionAniadirFacturaSocio.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;labelFondosDisponiblesSocio.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="comboBoxSocioRPesonaA.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;textBoxCedulaFacturaSocio.Parent" xml:space="preserve">
+    <value>panelAniadirFacturaSocio</value>
+  </data>
+  <data name="&gt;&gt;panelAniadirFacturaPersonaAu.Parent" xml:space="preserve">
+    <value>panelContenedorDerecho</value>
+  </data>
+  <data name="&gt;&gt;botonVerPagarFacturasPersonaAutorizada.Parent" xml:space="preserve">
+    <value>panelContenedorBotonesPersonaAutorizada</value>
+  </data>
+  <data name="comboBoxListarSocio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 6</value>
+  </data>
+  <data name="&gt;&gt;textBoxValorAniadirFacturaPA.Name" xml:space="preserve">
+    <value>textBoxValorAniadirFacturaPA</value>
+  </data>
+  <data name="&gt;&gt;comboBoxProductoAniadirFacturaPersonaA.Parent" xml:space="preserve">
+    <value>panelAniadirFacturaPersonaA1</value>
+  </data>
+  <data name="&gt;&gt;button5.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="label9.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;botonCancelarFondosDisponiblesSocio.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="panelComboBoxBebida.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="textBoxValorAniadirFactura.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="comboBoxProductoAniadirFacturaPersonaA.Items2" xml:space="preserve">
+    <value>Aguardiente (Garrafa)</value>
+  </data>
+  <data name="&gt;&gt;panelListarFacturaPersonaA.Name" xml:space="preserve">
+    <value>panelListarFacturaPersonaA</value>
+  </data>
+  <data name="&gt;&gt;comboBoxListarSocio.Name" xml:space="preserve">
+    <value>comboBoxListarSocio</value>
+  </data>
+  <data name="&gt;&gt;panelAniadirFacturaPersonaA1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tablaListarPersonaA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 159</value>
+  </data>
+  <data name="labelMenuIzquierdoSocio.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="textBoxFondosAniadirFacturaPA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>346, 96</value>
+  </data>
+  <data name="&gt;&gt;botonRegistrarAniadirFactura.Parent" xml:space="preserve">
+    <value>panelAniadirFacturaSocio</value>
+  </data>
+  <data name="textBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;labelAdicionAniadirFacturaSocio.Parent" xml:space="preserve">
+    <value>panelAniadirFacturaSocio</value>
+  </data>
+  <data name="comboBoxFacturaSocio.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="comboBoxProductoAniadirFactura.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 141</value>
+  </data>
+  <data name="&gt;&gt;botonConsultarFondosAniadirFactura.Name" xml:space="preserve">
+    <value>botonConsultarFondosAniadirFactura</value>
+  </data>
+  <data name="&gt;&gt;botonRegistrarFondosDisponiblesSocio.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tablaAdicionesAniadirFacturaSocio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 517</value>
+  </data>
+  <data name="label20.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;labelAfiliarSocio.Name" xml:space="preserve">
+    <value>labelAfiliarSocio</value>
+  </data>
+  <data name="botonListarFacturaSocio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>202, 117</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="ColumnaNombreSocio.HeaderText" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn12.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn5.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="&gt;&gt;label27.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;textBoxValorAniadirFacturaPersonaA.Parent" xml:space="preserve">
+    <value>panelAniadirFacturaPersonaA1</value>
+  </data>
+  <data name="&gt;&gt;botonRegistrarPersonaAutorizada.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBoxSocioFondosDisponibles.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 159</value>
+  </data>
+  <data name="&gt;&gt;textBoxCedulaSocioAfiliar.Parent" xml:space="preserve">
+    <value>panelAfiliarSocio</value>
+  </data>
+  <data name="&gt;&gt;labelAdicionAniadirFacturaSocio.Name" xml:space="preserve">
+    <value>labelAdicionAniadirFacturaSocio</value>
+  </data>
+  <data name="labelFacturaAPagarListarFactura.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn15.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn15</value>
+  </data>
+  <data name="rayita2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>327, 416</value>
+  </data>
+  <data name="&gt;&gt;labelSaldoFondosDisponiblesSocio.Name" xml:space="preserve">
+    <value>labelSaldoFondosDisponiblesSocio</value>
+  </data>
+  <data name="comboBoxPersonaAListarFacturaPersonaA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 137</value>
+  </data>
+  <data name="&gt;&gt;tablaListarFacturaSocio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panelSocioAniadirFacturaPersonaAu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>814, 287</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn9.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn9</value>
+  </data>
+  <data name="&gt;&gt;label14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;botonAniadirFacturaPersonaAutorizada.Name" xml:space="preserve">
+    <value>botonAniadirFacturaPersonaAutorizada</value>
+  </data>
+  <data name="&gt;&gt;textBoxCedulaPersonaA.Parent" xml:space="preserve">
+    <value>panelAfiliarPersonaAutorizada</value>
+  </data>
+  <data name="button6.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>panelListarPersonaA</value>
+  </data>
+  <data name="&gt;&gt;textBoxFondosAniadirFacturaPersonaA.Parent" xml:space="preserve">
+    <value>panelAniadirFacturaPersonaA1</value>
+  </data>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 78</value>
+  </data>
+  <data name="&gt;&gt;panel3.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tablaListarFacturaPersonaA.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;botonComboBoxAceptarBebiba.Parent" xml:space="preserve">
+    <value>panelComboBoxBebida</value>
+  </data>
+  <data name="&gt;&gt;textBoxValorAniadirFacturaPA.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;label23.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;labelSaldoFondosDisponiblesSocio.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="comboBoxCategoriaAniadirFacturaPA.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;panelPrincipalMenuIzquierdo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="botonRegistrarPersonaA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>255, 409</value>
+  </data>
+  <data name="&gt;&gt;botonCancelarPersonaA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 77</value>
+  </data>
+  <data name="&gt;&gt;botonVerPagarFacturasPersonaAutorizada.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>398, 256</value>
+  </data>
+  <data name="label15.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;textBoxFondosAniadirFactura.Parent" xml:space="preserve">
+    <value>panelAniadirFacturaSocio</value>
+  </data>
+  <data name="&gt;&gt;tablaIngredientesAniadirFacturaSocio.Name" xml:space="preserve">
+    <value>tablaIngredientesAniadirFacturaSocio</value>
+  </data>
+  <data name="panelListarPersonaA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>276, 195</value>
+  </data>
+  <data name="botonComboBoxCancelarBebida.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="comboBoxSocioRAfiliarPersonaA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 138</value>
+  </data>
+  <data name="&gt;&gt;textBoxNombrePersonaA.Name" xml:space="preserve">
+    <value>textBoxNombrePersonaA</value>
+  </data>
+  <data name="&gt;&gt;labelValorAniadirFactura.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;panelListarFacturaPersonaA.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tablaIngredientesAniadirFacturaSocio.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="&gt;&gt;comboBoxProductoAniadirFacturaPersonaA.Name" xml:space="preserve">
+    <value>comboBoxProductoAniadirFacturaPersonaA</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn4.HeaderText" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="&gt;&gt;comboBoxAdicionAniadirFacturaSocio.Name" xml:space="preserve">
+    <value>comboBoxAdicionAniadirFacturaSocio</value>
+  </data>
+  <data name="&gt;&gt;botonVerPagarFacturasSocio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelCedulaFondosDisponiblesSocio.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;labelAumentoFondosDisponiblesSocio.Name" xml:space="preserve">
+    <value>labelAumentoFondosDisponiblesSocio</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;botonPagarListarFacturaPersonaA.Name" xml:space="preserve">
+    <value>botonPagarListarFacturaPersonaA</value>
+  </data>
+  <data name="botonComboBoxAceptarBebiba.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 59</value>
+  </data>
+  <data name="labelAfiliarSocio.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="comboBox1.Items3" xml:space="preserve">
+    <value>Plato fuerte vegano</value>
+  </data>
+  <data name="&gt;&gt;botonCancelarAniadirFactura.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;labelValorAniadirFactura.Parent" xml:space="preserve">
+    <value>panelAniadirFacturaSocio</value>
+  </data>
+  <data name="textBoxCedulaFondosDisponiblesSocio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 161</value>
+  </data>
+  <data name="comboBoxSocioRAfiliarPersonaA.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;labelAdicionAniadirFacturaSocio.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;botonConsularFondosDisponiblesSocio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
+    <value>panelAniadirFacturaPersonaA1</value>
+  </data>
+  <data name="ColumnaNombreSocio.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="comboBoxPersonaAAniadirFacturaPersonaA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 188</value>
+  </data>
+  <data name="labelAdicionAniadirFacturaPA.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="textBoxNombrePersonaA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 321</value>
+  </data>
+  <data name="botonRegistrarSocioAfiliar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>255, 409</value>
+  </data>
+  <data name="label19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>291, 125</value>
+  </data>
+  <data name="&gt;&gt;botonComboBoxCancelarBebida.Name" xml:space="preserve">
+    <value>botonComboBoxCancelarBebida</value>
+  </data>
+  <data name="&gt;&gt;textBoxSaldoFondosDisponiblesSocio.Parent" xml:space="preserve">
+    <value>panelListarFondosDisponiblesSocio</value>
+  </data>
+  <data name="&gt;&gt;tablaIngredientesAniadirFacturaSocio.Parent" xml:space="preserve">
+    <value>panelAniadirFacturaSocio</value>
+  </data>
+  <data name="textBoxValorAniadirFacturaPA.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="panelAfiliarSocio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>287, 184</value>
+  </data>
+  <data name="panelAniadirFacturaSocio.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="comboBoxSocioRAniadirFacturaPersonaA1.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;comboBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn3.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn3</value>
+  </data>
+  <data name="&gt;&gt;label24.Parent" xml:space="preserve">
+    <value>panelAniadirFacturaPersonaAu</value>
+  </data>
+  <data name="textBoxValorAniadirFacturaPA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>60, 210</value>
+  </data>
+  <data name="tablaAdicionesAniadirFacturaPersonaA.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="comboBoxGramajeAzucar.Items4" xml:space="preserve">
+    <value>20g</value>
+  </data>
+  <data name="&gt;&gt;textBoxCedulaFacturaSocio.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;panelListarFacturasSocio.Parent" xml:space="preserve">
+    <value>panelContenedorDerecho</value>
+  </data>
+  <data name="&gt;&gt;rayita2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label18.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;button10.Name" xml:space="preserve">
+    <value>button10</value>
+  </data>
+  <data name="comboBoxProductoAniadirFactura.Items5" xml:space="preserve">
+    <value>Bebida fria no alcoholica</value>
+  </data>
+  <data name="labelSocioListarFactura.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="comboBoxProductoAniadirFacturaPersonaA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 268</value>
+  </data>
+  <data name="labelCedulaDelSocioAfiliar.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;label27.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBoxSocioRAniadirFacturaPersonaA1.Parent" xml:space="preserve">
+    <value>panelAniadirFacturaPersonaA1</value>
+  </data>
+  <data name="comboBoxCategoriaAniadirFacturaPA.Items4" xml:space="preserve">
+    <value>Bebida fria alcoholica</value>
+  </data>
+  <data name="&gt;&gt;panelAniadirFacturaPersonaA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panelContenedorDerecho.Location" type="System.Drawing.Point, System.Drawing">
+    <value>401, 0</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label14.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label16.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;rayita1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="comboBoxPersonaAAniadirFacturaPersonaA.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;comboBoxSocioFondosDisponibles.Name" xml:space="preserve">
+    <value>comboBoxSocioFondosDisponibles</value>
+  </data>
+  <data name="columnaValorTablaFacturaSocio.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="&gt;&gt;botonPagarListarFacturaPersonaA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxAumentoFondosDisponiblesSocio.Name" xml:space="preserve">
+    <value>textBoxAumentoFondosDisponiblesSocio</value>
+  </data>
+  <data name="botonAfiliarSocio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 17</value>
+  </data>
+  <data name="textBoxSaldoFondosDisponiblesSocio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 251</value>
+  </data>
+  <data name="tablaIngredientesAniadirFacturaSocio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 384</value>
+  </data>
+  <data name="&gt;&gt;label19.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="button6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 137</value>
+  </data>
+  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;ColumnaNombreSocio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelNombreSocioAfiliar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 227</value>
+  </data>
+  <data name="comboBoxSocioRAniadirFacturaPersonaA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 108</value>
+  </data>
+  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
+    <value>panelListarFacturaPersonaA</value>
+  </data>
+  <data name="comboBox1.Items5" xml:space="preserve">
+    <value>Bebida fria no alcoholica</value>
+  </data>
+  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn10.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="comboBoxCategoriaAniadirFactura.Items2" xml:space="preserve">
+    <value>Plato fuerte mixto</value>
+  </data>
+  <data name="labelProductoAniadirFactura.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 105</value>
+  </data>
+  <data name="label17.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;botonListarPersonaA.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;botonAgregarAdicionAniadirFacturaPA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="textBoxFondosAniadirFacturaPersonaA.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="panelListarFacturaPersonaA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>430, 155</value>
+  </data>
+  <data name="&gt;&gt;panelComboBoxBebida.Name" xml:space="preserve">
+    <value>panelComboBoxBebida</value>
+  </data>
+  <data name="&gt;&gt;botonCancelarSocioAfiliar.Name" xml:space="preserve">
+    <value>botonCancelarSocioAfiliar</value>
+  </data>
+  <data name="comboBox4.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;botonListarEliminarSocio.Name" xml:space="preserve">
+    <value>botonListarEliminarSocio</value>
+  </data>
+  <data name="&gt;&gt;textBoxAumentoFondosDisponiblesSocio.Parent" xml:space="preserve">
+    <value>panelListarFondosDisponiblesSocio</value>
+  </data>
+  <data name="&gt;&gt;textBoxValorAniadirFacturaPersonaA.Name" xml:space="preserve">
+    <value>textBoxValorAniadirFacturaPersonaA</value>
+  </data>
+  <data name="&gt;&gt;botonComboBoxCancelarBebida.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button3.Name" xml:space="preserve">
+    <value>button3</value>
+  </data>
+  <data name="&gt;&gt;comboBoxGramajeAzucar.Name" xml:space="preserve">
+    <value>comboBoxGramajeAzucar</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn5.HeaderText" xml:space="preserve">
+    <value>N</value>
+  </data>
+  <data name="&gt;&gt;rayita2.Name" xml:space="preserve">
+    <value>rayita2</value>
+  </data>
+  <data name="&gt;&gt;botonRegistrarPersonaAutorizada.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;labelSocioListarFactura.Name" xml:space="preserve">
+    <value>labelSocioListarFactura</value>
+  </data>
+  <data name="tablaIngredientesAniadirFacturaPersonaA.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;textBoxNombreSocioAfiliar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelContenedorBotonesSocio.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>formularioPrincipalClubSocial</value>
+  </data>
+  <data name="panel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 459</value>
+  </data>
+  <data name="&gt;&gt;ColumnaNombreSocio.Name" xml:space="preserve">
+    <value>ColumnaNombreSocio</value>
+  </data>
+  <data name="&gt;&gt;button4.Name" xml:space="preserve">
+    <value>button4</value>
+  </data>
+  <data name="&gt;&gt;label27.Parent" xml:space="preserve">
+    <value>panelAniadirFacturaPersonaAu</value>
+  </data>
+  <data name="labelNombrePersonaA.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;comboBoxCategoriaAniadirFactura.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="comboBoxSuscripcionSocioAfiliar.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="comboBoxListarPersonaA.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn3.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="&gt;&gt;botonCancelarPersonaA.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;labelMenuIzquierdoPersonaAutorizada.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button10.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;botonConsultarFondosAniadirFactura.Parent" xml:space="preserve">
+    <value>panelAniadirFacturaSocio</value>
+  </data>
+  <data name="&gt;&gt;button10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn9.HeaderText" xml:space="preserve">
+    <value>Descripcion</value>
+  </data>
+  <data name="botonAumentarFondosDisponiblesSocio.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;comboBoxSocioFondosDisponibles.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ColumnaNSocio.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="&gt;&gt;botonListarPersonaA.Name" xml:space="preserve">
+    <value>botonListarPersonaA</value>
+  </data>
+  <data name="&gt;&gt;botonPagarListarFacturaPersonaA.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;tablaListarFacturaPersonaA.Name" xml:space="preserve">
+    <value>tablaListarFacturaPersonaA</value>
+  </data>
+  <data name="&gt;&gt;comboBox4.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;label19.Parent" xml:space="preserve">
+    <value>panelAniadirFacturaPersonaAu</value>
+  </data>
+  <data name="textBoxCedulaPersonaA.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="textBoxCedulaSocioAfiliar.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;botonListarFacturaSocio.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;comboBoxAdicionAniadirFacturaSocio.Parent" xml:space="preserve">
+    <value>panelAniadirFacturaSocio</value>
+  </data>
+  <data name="&gt;&gt;label22.Name" xml:space="preserve">
+    <value>label22</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 74</value>
+  </data>
+  <data name="panelContenedorTablaListarSocio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>291, 238</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPersonaAListarFacturaPersonaA.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;botonAniadirFacturaPersonaAutorizada.Parent" xml:space="preserve">
+    <value>panelContenedorBotonesPersonaAutorizada</value>
+  </data>
+  <data name="botonRegistrarAniadirFactura.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;botonListarPersonaA.Parent" xml:space="preserve">
+    <value>panelListarPersonaA</value>
+  </data>
+  <data name="tablaAdicionesAniadirFacturaSocio.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;botonRegistrarAniadirFactura.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;botonAniadirFacturaSocio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="botonAniadirFacturaPersonaA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>250, 497</value>
+  </data>
+  <data name="&gt;&gt;comboBoxProductoAniadirFacturaPA.Parent" xml:space="preserve">
+    <value>panelAniadirFacturaPersonaAu</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn12.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn12</value>
+  </data>
+  <data name="&gt;&gt;labelSocioResponsablePersonaA.Name" xml:space="preserve">
+    <value>labelSocioResponsablePersonaA</value>
+  </data>
+  <data name="&gt;&gt;label14.Parent" xml:space="preserve">
+    <value>panelListarFacturasSocio</value>
+  </data>
+  <data name="&gt;&gt;labelAfiliarSocio.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;columnaValorTablaFacturaSocio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.Name" xml:space="preserve">
+    <value>comboBox1</value>
+  </data>
+  <data name="comboBox2.Items1" xml:space="preserve">
+    <value>Hamburguesa</value>
+  </data>
+  <data name="&gt;&gt;label17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelContenedorDerecho.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label24.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBoxGramajeAzucar.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;comboBox2.Name" xml:space="preserve">
+    <value>comboBox2</value>
+  </data>
+  <data name="botonPagarListarFacturaPersonaA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 222</value>
+  </data>
+  <data name="&gt;&gt;botonCancelarSocioAfiliar.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;button10.Parent" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="label14.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;tablaListarFacturaSocio.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;tablaListarPersonaA.Parent" xml:space="preserve">
+    <value>panelListarPersonaA</value>
+  </data>
+  <data name="&gt;&gt;labelSocioResponsablePersonaA.Parent" xml:space="preserve">
+    <value>panelAfiliarPersonaAutorizada</value>
+  </data>
+  <data name="&gt;&gt;labelProductoAniadirFactura.Parent" xml:space="preserve">
+    <value>panelAniadirFacturaSocio</value>
+  </data>
+  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="textBoxFondosListarFacturaSocio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 234</value>
+  </data>
+  <data name="&gt;&gt;panelContenedorDerecho.Name" xml:space="preserve">
+    <value>panelContenedorDerecho</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn13.HeaderText" xml:space="preserve">
+    <value>Descripcion</value>
+  </data>
+  <data name="comboBoxAdicionAniadirFacturaSocio.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="botonCancelarSocioAfiliar.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;labelCedulaDelSocioAfiliar.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;panelSocioAniadirFacturaPersonaAu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBoxListarSocio.Parent" xml:space="preserve">
+    <value>panelListarSocio</value>
+  </data>
+  <data name="&gt;&gt;botonListarFacturaSocio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnaDescipcionTablaFacturaSocio.Name" xml:space="preserve">
+    <value>columnaDescipcionTablaFacturaSocio</value>
+  </data>
+  <data name="&gt;&gt;button3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tablaIngredientesAniadirFacturaSocio.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;panelListarFacturasSocio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;label21.Name" xml:space="preserve">
+    <value>label21</value>
+  </data>
+  <data name="&gt;&gt;comboBoxProductoAniadirFactura.Parent" xml:space="preserve">
+    <value>panelAniadirFacturaSocio</value>
+  </data>
+  <data name="&gt;&gt;panelListarSocio.Parent" xml:space="preserve">
+    <value>panelContenedorDerecho</value>
+  </data>
+  <data name="comboBoxCategoriaAniadirFactura.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 202</value>
+  </data>
+  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;labelNombrePersonaA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;botonListarEliminarPersonaAutorizada.Parent" xml:space="preserve">
+    <value>panelContenedorBotonesPersonaAutorizada</value>
+  </data>
+  <data name="comboBoxFacturaSocio.Items1" xml:space="preserve">
+    <value>Regular</value>
+  </data>
+  <data name="&gt;&gt;botonVerAumentarFondosSocio.Parent" xml:space="preserve">
+    <value>panelContenedorBotonesSocio</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;comboBoxListarFacturaSocio.Name" xml:space="preserve">
+    <value>comboBoxListarFacturaSocio</value>
+  </data>
+  <data name="rayita3.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="label11.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;botonAgregarAdicionAniadirFacturaPA.Name" xml:space="preserve">
+    <value>botonAgregarAdicionAniadirFacturaPA</value>
+  </data>
+  <data name="&gt;&gt;panelListarSocio.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;labelMenuIzquierdoSocio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="botonEliminarListarSocio.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="columnaDescipcionTablaFacturaSocio.HeaderText" xml:space="preserve">
+    <value>Descripcion</value>
+  </data>
+  <data name="panelListarSocio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>458, 4</value>
+  </data>
+  <data name="&gt;&gt;botonEliminarListarSocio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelAniadirFacturaPersonaA1.Parent" xml:space="preserve">
+    <value>panelContenedorDerecho</value>
+  </data>
+  <data name="comboBoxCategoriaAniadirFacturaPA.Items2" xml:space="preserve">
+    <value>Plato fuerte mixto</value>
+  </data>
+  <data name="&gt;&gt;botonAgregarAdicionAniadirFacturaPA.Parent" xml:space="preserve">
+    <value>panelAniadirFacturaPersonaAu</value>
+  </data>
+  <data name="&gt;&gt;comboBoxSocioRAniadirFacturaPersonaA1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panelAfiliarPersonaAutorizada.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="botonListarEliminarSocio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 77</value>
+  </data>
+  <data name="button9.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panelAniadirFacturaPersonaAu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;botonCancelarFondosDisponiblesSocio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tablaAdicionesAniadirFacturaPersonaA.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="panelContenedorTablaListarSocio.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;botonEliminarPersonaA.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="labelValorAniadirFactura.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;comboBoxSocioListarFactura.Parent" xml:space="preserve">
+    <value>panelListarFacturasSocio</value>
+  </data>
+  <data name="&gt;&gt;comboBoxSocioRAfiliarPersonaA.Parent" xml:space="preserve">
+    <value>panelAfiliarPersonaAutorizada</value>
+  </data>
+  <data name="&gt;&gt;labelFacturaAPagarListarFactura.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBoxProductoAniadirFacturaPA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;label16.Name" xml:space="preserve">
+    <value>label16</value>
+  </data>
+  <data name="botonAumentarFondosDisponiblesSocio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>302, 409</value>
+  </data>
+  <data name="&gt;&gt;comboBoxSocioRAniadirFacturaPersonaA.Name" xml:space="preserve">
+    <value>comboBoxSocioRAniadirFacturaPersonaA</value>
+  </data>
+  <data name="panelAniadirFacturaPersonaA1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 170</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn6.HeaderText" xml:space="preserve">
+    <value>Descripcion</value>
+  </data>
+  <data name="textBoxAumentoFondosDisponiblesSocio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 335</value>
+  </data>
+  <data name="&gt;&gt;botonAceptarSocioAniadirFacturaPersonaA.Parent" xml:space="preserve">
+    <value>panelSocioAniadirFacturaPersonaAu</value>
+  </data>
+  <data name="&gt;&gt;label18.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;botonCancelarAniadirFacturaPersonaA.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn14.HeaderText" xml:space="preserve">
+    <value>N</value>
+  </data>
+  <data name="&gt;&gt;comboBoxSocioRListarFacturaPersonaA.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;labelSaldoFondosDisponiblesSocio.Parent" xml:space="preserve">
+    <value>panelListarFondosDisponiblesSocio</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="comboBoxGramajeAzucar.Items3" xml:space="preserve">
+    <value>15g</value>
+  </data>
+  <data name="label21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>119, 256</value>
+  </data>
+  <data name="&gt;&gt;label24.Name" xml:space="preserve">
+    <value>label24</value>
+  </data>
+  <data name="comboBoxProductoAniadirFactura.Items2" xml:space="preserve">
+    <value>Aguardiente (Garrafa)</value>
+  </data>
+  <data name="&gt;&gt;ColumnaSuscripcionSocio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn15.Width" type="System.Int32, mscorlib">
+    <value>250</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 250</value>
+  </data>
+  <data name="botonAgregarAdicionAniadirFacturaSocio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>356, 459</value>
+  </data>
+  <data name="&gt;&gt;comboBoxAdicionAniadirFacturaPA.Name" xml:space="preserve">
+    <value>comboBoxAdicionAniadirFacturaPA</value>
+  </data>
+  <data name="textBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="panelListarFondosDisponiblesSocio.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="botonConsularFondosDisponiblesSocio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>163, 409</value>
+  </data>
+  <data name="&gt;&gt;rayita3.Parent" xml:space="preserve">
+    <value>panelPrincipalMenuIzquierdo</value>
+  </data>
+  <data name="&gt;&gt;comboBoxGramajeAzucar.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panelAniadirFacturaPersonaAu.Name" xml:space="preserve">
+    <value>panelAniadirFacturaPersonaAu</value>
+  </data>
+  <data name="&gt;&gt;comboBoxCategoriaAniadirFacturaPA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxFondosListarFacturaSocio.Parent" xml:space="preserve">
+    <value>panelListarFacturasSocio</value>
+  </data>
+  <data name="ColumnaSuscripcionSocio.HeaderText" xml:space="preserve">
+    <value>Suscripcion</value>
+  </data>
+  <data name="&gt;&gt;botonRegistrarFondosDisponiblesSocio.Name" xml:space="preserve">
+    <value>botonRegistrarFondosDisponiblesSocio</value>
+  </data>
+  <data name="&gt;&gt;ColumnaNSocio.Name" xml:space="preserve">
+    <value>ColumnaNSocio</value>
+  </data>
+  <data name="&gt;&gt;tablaListarPersonaA.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 91</value>
+  </data>
+  <data name="dataGridView2.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="textBoxValorAniadirFactura.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 226</value>
+  </data>
+  <data name="&gt;&gt;textBoxCedulaPersonaA.Name" xml:space="preserve">
+    <value>textBoxCedulaPersonaA</value>
+  </data>
+  <data name="rayita2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 320</value>
+  </data>
+  <data name="comboBoxSocioListarFactura.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 47</value>
+  </data>
+  <data name="&gt;&gt;panelAfiliarSocio.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;botonEliminarPersonaA.Parent" xml:space="preserve">
+    <value>panelListarPersonaA</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>234, 14</value>
+  </data>
+  <data name="botonAceptarSocioAniadirFacturaPersonaA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 97</value>
+  </data>
+  <data name="&gt;&gt;textBoxValorAniadirFacturaPA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxCedulaFondosDisponiblesSocio.Parent" xml:space="preserve">
+    <value>panelListarFondosDisponiblesSocio</value>
+  </data>
+  <data name="&gt;&gt;button3.Parent" xml:space="preserve">
+    <value>panelAniadirFacturaPersonaAu</value>
+  </data>
+  <data name="&gt;&gt;label26.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="botonComboBoxAceptarBebiba.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;comboBoxSocioRAniadirFacturaPersonaA.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 25</value>
+  </data>
+  <data name="textBoxCedulaSocioRPersonaA.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="label26.Location" type="System.Drawing.Point, System.Drawing">
+    <value>60, 184</value>
+  </data>
+  <data name="button5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 137</value>
+  </data>
+  <data name="&gt;&gt;botonAniadirFacturaPersonaA.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;textBoxFondosListarFacturaPersonaA.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;textBoxCedulaSocioRPersonaA.Parent" xml:space="preserve">
+    <value>panelListarPersonaA</value>
+  </data>
+  <data name="&gt;&gt;labelNombrePersonaA.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="button10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 17</value>
+  </data>
+  <data name="&gt;&gt;rayita3.Name" xml:space="preserve">
+    <value>rayita3</value>
+  </data>
+  <data name="label12.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="comboBoxAdicionAniadirFacturaSocio.Items3" xml:space="preserve">
+    <value>Gaseosa (200ml)</value>
+  </data>
+  <data name="comboBoxAdicionAniadirFacturaPA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>291, 211</value>
+  </data>
+  <data name="label13.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPersonaAAniadirFacturaPersonaA.Name" xml:space="preserve">
+    <value>comboBoxPersonaAAniadirFacturaPersonaA</value>
+  </data>
+  <data name="&gt;&gt;panelListarPersonaA.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="tablaListarPersonaA.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="&gt;&gt;botonListarEliminarPersonaAutorizada.Name" xml:space="preserve">
+    <value>botonListarEliminarPersonaAutorizada</value>
+  </data>
+  <data name="&gt;&gt;label25.Name" xml:space="preserve">
+    <value>label25</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridView2.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;panelSocioAniadirFacturaPersonaA.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="comboBoxProductoAniadirFactura.Items3" xml:space="preserve">
+    <value>Gaseosa (200ml)</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 10</value>
+  </data>
+  <data name="&gt;&gt;botonConsularFondosDisponiblesSocio.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="comboBoxAdicionAniadirFacturaPA.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;panelAfiliarSocio.Parent" xml:space="preserve">
+    <value>panelContenedorDerecho</value>
+  </data>
+  <data name="&gt;&gt;labelCedulaDelSocioAfiliar.Name" xml:space="preserve">
+    <value>labelCedulaDelSocioAfiliar</value>
+  </data>
+  <data name="&gt;&gt;labelMenuIzquierdoPersonaAutorizada.Parent" xml:space="preserve">
+    <value>panelPrincipalMenuIzquierdo</value>
+  </data>
+  <data name="&gt;&gt;botonListarEliminarSocio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tablaListarFacturaSocio.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="&gt;&gt;dataGridView2.Parent" xml:space="preserve">
+    <value>panelAniadirFacturaPersonaAu</value>
+  </data>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="botonCancelarAniadirFactura.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPersonaAAniadirFacturaPersonaA.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;button4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="labelFacturaAPagarListarFactura.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 102</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelCedulaFondosDisponiblesSocio.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="panelListarFondosDisponiblesSocio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>435, 496</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBoxProductoAniadirFactura.Name" xml:space="preserve">
+    <value>comboBoxProductoAniadirFactura</value>
+  </data>
+  <data name="&gt;&gt;labelNombrePersonaA.Parent" xml:space="preserve">
+    <value>panelAfiliarPersonaAutorizada</value>
+  </data>
+  <data name="&gt;&gt;botonListarFacturaSocio.Name" xml:space="preserve">
+    <value>botonListarFacturaSocio</value>
+  </data>
+  <data name="&gt;&gt;botonRegistrarPersonaA.Name" xml:space="preserve">
+    <value>botonRegistrarPersonaA</value>
+  </data>
+  <data name="&gt;&gt;label18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="botonAfiliarSocio.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="botonRegistrarPersonaA.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;tablaIngredientesAniadirFacturaSocio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="botonCancelarPersonaA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 409</value>
+  </data>
+  <data name="&gt;&gt;botonCancelarAniadirFacturaPersonaA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;labelFacturaAPagarListarFactura.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn7.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn7</value>
+  </data>
+  <data name="&gt;&gt;panelAniadirFacturaPersonaA.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label28.Name" xml:space="preserve">
+    <value>label28</value>
+  </data>
+  <data name="dataGridView1.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="botonAniadirFacturaPersonaA.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;comboBoxBebidaFria.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="botonListarPersonaA.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;comboBoxGramajeAzucar.Parent" xml:space="preserve">
+    <value>panelComboBoxBebida</value>
+  </data>
+  <data name="comboBoxBebidaFria.Items2" xml:space="preserve">
+    <value>Avena (500 ml)[Alpina]</value>
+  </data>
+  <data name="&gt;&gt;labelNombreSocioAfiliar.Name" xml:space="preserve">
+    <value>labelNombreSocioAfiliar</value>
+  </data>
+  <data name="&gt;&gt;labelSocioResponsablePersonaA.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;botonListarPersonaA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;botonEliminarPersonaA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBoxFacturaSocio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 6</value>
+  </data>
+  <data name="&gt;&gt;botonVerPagarFacturasPersonaAutorizada.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label22.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;botonConsultarFondosAniadirFactura.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>panelListarPersonaA</value>
+  </data>
+  <data name="button8.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="textBoxCedulaSocioAfiliar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 161</value>
+  </data>
+  <data name="columnaValorTablaFacturaSocio.HeaderText" xml:space="preserve">
+    <value>Valor</value>
+  </data>
+  <data name="label17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>333, 167</value>
+  </data>
+  <data name="&gt;&gt;panelPrincipalMenuIzquierdo.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;panelContenedorBotonesPersonaAutorizada.Parent" xml:space="preserve">
+    <value>panelPrincipalMenuIzquierdo</value>
+  </data>
+  <data name="comboBoxGramajeAzucar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>319, 84</value>
+  </data>
+  <data name="&gt;&gt;panelAniadirFacturaSocio.Name" xml:space="preserve">
+    <value>panelAniadirFacturaSocio</value>
+  </data>
+  <data name="&gt;&gt;label26.Name" xml:space="preserve">
+    <value>label26</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBoxListarSocio.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;botonAfiliarSocio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBoxListarFacturaSocio.Parent" xml:space="preserve">
+    <value>panelListarFacturasSocio</value>
+  </data>
+  <data name="&gt;&gt;tablaAdicionesAniadirFacturaPersonaA.Name" xml:space="preserve">
+    <value>tablaAdicionesAniadirFacturaPersonaA</value>
+  </data>
+  <data name="labelCedulaDelSocioAfiliar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 124</value>
+  </data>
+  <data name="botonCancelarFondosDisponiblesSocio.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1275, 797</value>
+  </data>
+  <data name="&gt;&gt;tablaListarFacturaPersonaA.Parent" xml:space="preserve">
+    <value>panelListarFacturaPersonaA</value>
+  </data>
+  <data name="comboBoxProductoAniadirFactura.Items6" xml:space="preserve">
+    <value>Bebida caliente</value>
+  </data>
+  <data name="&gt;&gt;botonAniadirFacturaSocio.Name" xml:space="preserve">
+    <value>botonAniadirFacturaSocio</value>
+  </data>
+  <data name="dataGridView2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>67, 288</value>
+  </data>
+  <data name="&gt;&gt;comboBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>352, 796</value>
+  </data>
+  <data name="&gt;&gt;textBoxCedulaSocioRPersonaA.Name" xml:space="preserve">
+    <value>textBoxCedulaSocioRPersonaA</value>
+  </data>
+  <data name="&gt;&gt;panelListarFacturaPersonaA.Parent" xml:space="preserve">
+    <value>panelContenedorDerecho</value>
+  </data>
+  <data name="&gt;&gt;textBoxNombreSocioAfiliar.Parent" xml:space="preserve">
+    <value>panelAfiliarSocio</value>
+  </data>
+  <data name="&gt;&gt;tablaAdicionesAniadirFacturaPersonaA.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>920, 800</value>
+  </data>
+  <data name="textBoxCedulaPersonaA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 228</value>
+  </data>
+  <data name="&gt;&gt;comboBoxSocioAniadirFactura.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBoxListarSocio.Items1" xml:space="preserve">
+    <value>Regular</value>
+  </data>
+  <data name="&gt;&gt;botonCancelarPersonaA.Name" xml:space="preserve">
+    <value>botonCancelarPersonaA</value>
+  </data>
+  <data name="&gt;&gt;textBoxCedulaFondosDisponiblesSocio.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;textBoxValorAniadirFactura.Parent" xml:space="preserve">
+    <value>panelAniadirFacturaSocio</value>
+  </data>
+  <data name="comboBoxProductoAniadirFactura.Items4" xml:space="preserve">
+    <value>Bebida fria alcoholica</value>
+  </data>
+  <data name="comboBoxProductoAniadirFacturaPersonaA.Items3" xml:space="preserve">
+    <value>Gaseosa (200ml)</value>
+  </data>
+  <data name="labelFondosAniadirFactura.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 276</value>
+  </data>
+  <data name="&gt;&gt;comboBoxSocioRAniadirFacturaPersonaA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBoxSocioAniadirFactura.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;botonCancelarPersonaA.Parent" xml:space="preserve">
+    <value>panelAfiliarPersonaAutorizada</value>
+  </data>
+  <data name="&gt;&gt;label28.Parent" xml:space="preserve">
+    <value>panelSocioAniadirFacturaPersonaAu</value>
+  </data>
+  <data name="&gt;&gt;botonComboBoxAceptarBebiba.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxCedulaSocioAfiliar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;textBoxCedulaFondosDisponiblesSocio.Name" xml:space="preserve">
+    <value>textBoxCedulaFondosDisponiblesSocio</value>
+  </data>
+  <data name="&gt;&gt;comboBoxFacturaSocio.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;textBoxCedulaPersonaA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;tablaListarPersonaA.Name" xml:space="preserve">
+    <value>tablaListarPersonaA</value>
+  </data>
+  <data name="&gt;&gt;textBoxFondosAniadirFacturaPA.Parent" xml:space="preserve">
+    <value>panelAniadirFacturaPersonaAu</value>
+  </data>
+  <data name="panelListarFacturasSocio.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tablaListarSocio.Name" xml:space="preserve">
+    <value>tablaListarSocio</value>
+  </data>
+  <data name="&gt;&gt;labelMenuIzquierdoPersonaAutorizada.Name" xml:space="preserve">
+    <value>labelMenuIzquierdoPersonaAutorizada</value>
+  </data>
+  <data name="&gt;&gt;panelContenedorBotonesSocio.Parent" xml:space="preserve">
+    <value>panelPrincipalMenuIzquierdo</value>
+  </data>
+  <data name="&gt;&gt;ColumnaCedulaSocio.Name" xml:space="preserve">
+    <value>ColumnaCedulaSocio</value>
+  </data>
+  <data name="&gt;&gt;botonVerPagarFacturasSocio.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn15.HeaderText" xml:space="preserve">
+    <value>Descripcion</value>
+  </data>
+  <data name="&gt;&gt;labelFondosAniadirFactura.Parent" xml:space="preserve">
+    <value>panelAniadirFacturaSocio</value>
+  </data>
+  <data name="textBoxAumentoFondosDisponiblesSocio.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;labelAniadirFacturaSocio.Name" xml:space="preserve">
+    <value>labelAniadirFacturaSocio</value>
+  </data>
+  <data name="textBoxCedulaListarFacturaSocio.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;labelAniadirFacturaSocio.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn6.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn6</value>
+  </data>
+  <data name="botonAniadirFacturaPersonaAutorizada.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 137</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn11.Width" type="System.Int32, mscorlib">
+    <value>250</value>
+  </data>
+  <data name="&gt;&gt;labelAdicionAniadirFacturaPA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="dataGridView1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;botonAumentarFondosDisponiblesSocio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelAdicionAniadirFacturaPA.Parent" xml:space="preserve">
+    <value>panelAniadirFacturaPersonaAu</value>
+  </data>
+  <data name="comboBoxListarFacturaSocio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="&gt;&gt;botonListarFacturaSocio.Parent" xml:space="preserve">
+    <value>panelListarFacturasSocio</value>
+  </data>
+  <data name="&gt;&gt;rayita1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;botonPagarListarFacturaSocio.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;labelSocioListarFactura.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 166</value>
+  </data>
+  <data name="label8.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>327, 285</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn7.HeaderText" xml:space="preserve">
+    <value>Valor</value>
+  </data>
+  <data name="labelSocioResponsablePersonaA.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;panelAniadirFacturaSocio.Parent" xml:space="preserve">
+    <value>panelContenedorDerecho</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;botonComboBoxAceptarBebiba.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 21</value>
+  </data>
+  <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 181</value>
+  </data>
+  <data name="&gt;&gt;panelSocioAniadirFacturaPersonaA.Name" xml:space="preserve">
+    <value>panelSocioAniadirFacturaPersonaA</value>
+  </data>
+  <data name="&gt;&gt;panelPrincipalMenuIzquierdo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;botonRegistrarSocioAfiliar.Parent" xml:space="preserve">
+    <value>panelAfiliarSocio</value>
+  </data>
+  <data name="&gt;&gt;botonPagarFacturaSocio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBoxCategoriaAniadirFacturaPA.Items" xml:space="preserve">
+    <value>Entrada</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn3.HeaderText" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="labelCedulaPersonaA.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="botonCancelarAniadirFacturaPersonaA.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn4.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn4</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPersonaAListarFacturaPersonaA.Parent" xml:space="preserve">
+    <value>panelListarFacturaPersonaA</value>
+  </data>
+  <data name="&gt;&gt;textBox2.Parent" xml:space="preserve">
+    <value>panelAniadirFacturaPersonaAu</value>
+  </data>
+  <data name="&gt;&gt;tablaIngredientesAniadirFacturaPersonaA.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;panelListarFondosDisponiblesSocio.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="textBoxFondosListarFacturaPersonaA.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;comboBoxListarFacturaSocio.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="comboBoxPersonaAListarFacturaPersonaA.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn14.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="&gt;&gt;botonConsularFondosDisponiblesSocio.Name" xml:space="preserve">
+    <value>botonConsularFondosDisponiblesSocio</value>
+  </data>
+  <data name="comboBoxProductoAniadirFacturaPA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>291, 152</value>
+  </data>
+  <data name="&gt;&gt;botonAniadirFacturaPersonaA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panelSocioAniadirFacturaPersonaAu.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;botonAniadirFacturaPersonaAutorizada.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelAfiliarPersonaA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>80, 26</value>
+  </data>
+  <data name="labelAumentoFondosDisponiblesSocio.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;columnaDescipcionTablaFacturaSocio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;botonConsultarFondosAniadirFactura.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;comboBoxSuscripcionSocioAfiliar.Parent" xml:space="preserve">
+    <value>panelAfiliarSocio</value>
+  </data>
+  <data name="botonAniadirFacturaPersonaAutorizada.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;panelSocioAniadirFacturaPersonaAu.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="comboBoxCategoriaAniadirFacturaPA.Items6" xml:space="preserve">
+    <value>Bebida caliente</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn7.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="&gt;&gt;panelListarFacturaPersonaA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBox1.Items6" xml:space="preserve">
+    <value>Bebida caliente</value>
+  </data>
+  <data name="botonPagarListarFacturaPersonaA.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;comboBoxCategoriaAniadirFacturaPA.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tablaIngredientesAniadirFacturaPersonaA.Parent" xml:space="preserve">
+    <value>panelAniadirFacturaPersonaAu</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel3.Name" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="&gt;&gt;ColumnaCedulaSocio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;botonPagarListarFacturaSocio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBoxProductoAniadirFacturaPA.Name" xml:space="preserve">
+    <value>comboBoxProductoAniadirFacturaPA</value>
+  </data>
+  <data name="&gt;&gt;comboBoxSocioAniadirFactura.Name" xml:space="preserve">
+    <value>comboBoxSocioAniadirFactura</value>
+  </data>
+  <data name="&gt;&gt;panelListarFacturasSocio.Name" xml:space="preserve">
+    <value>panelListarFacturasSocio</value>
+  </data>
+  <data name="comboBoxAdicionAniadirFacturaSocio.Items2" xml:space="preserve">
+    <value>Aguardiente (Garrafa)</value>
+  </data>
+  <data name="&gt;&gt;labelAumentoFondosDisponiblesSocio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="textBoxFondosListarFacturaPersonaA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 218</value>
+  </data>
+  <data name="panelAfiliarPersonaAutorizada.Location" type="System.Drawing.Point, System.Drawing">
+    <value>401, 457</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>panelAniadirFacturaSocio</value>
+  </data>
+  <data name="&gt;&gt;textBox2.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;textBoxNombreSocioAfiliar.Name" xml:space="preserve">
+    <value>textBoxNombreSocioAfiliar</value>
+  </data>
+  <data name="&gt;&gt;textBoxCedulaSocioRPersonaA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelFondosDisponiblesSocio.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;panelSocioAniadirFacturaPersonaA.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="comboBoxPersonaAAniadirFactura.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="tablaListarPersonaA.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;botonListarEliminarSocio.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="comboBoxAdicionAniadirFacturaSocio.Items" xml:space="preserve">
+    <value>Perrito caliente</value>
+  </data>
+  <data name="&gt;&gt;labelAfiliarPersonaA.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="botonPagarFacturaSocio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 51</value>
+  </data>
+  <data name="&gt;&gt;panelContenedorBotonesSocio.Name" xml:space="preserve">
+    <value>panelContenedorBotonesSocio</value>
+  </data>
+  <data name="comboBox1.Items2" xml:space="preserve">
+    <value>Plato fuerte mixto</value>
+  </data>
+  <data name="botonListarPersonaA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 105</value>
+  </data>
+  <data name="panelAfiliarPersonaAutorizada.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;comboBoxSocioRListarFacturaPersonaA.Parent" xml:space="preserve">
+    <value>panelListarFacturaPersonaA</value>
+  </data>
+  <data name="&gt;&gt;comboBoxProductoAniadirFacturaPA.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;tablaIngredientesAniadirFacturaPersonaA.Name" xml:space="preserve">
+    <value>tablaIngredientesAniadirFacturaPersonaA</value>
+  </data>
+  <data name="&gt;&gt;textBoxFondosAniadirFactura.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBoxSocioRListarFacturaPersonaA.Name" xml:space="preserve">
+    <value>comboBoxSocioRListarFacturaPersonaA</value>
+  </data>
+  <data name="panelAniadirFacturaPersonaAu.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;panelSocioAniadirFacturaPersonaAu.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelProductoAniadirFactura.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="label16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>455, 341</value>
+  </data>
+  <data name="comboBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>60, 94</value>
+  </data>
+  <data name="&gt;&gt;labelAumentoFondosDisponiblesSocio.Parent" xml:space="preserve">
+    <value>panelListarFondosDisponiblesSocio</value>
+  </data>
+  <data name="&gt;&gt;botonAfiliarSocio.Name" xml:space="preserve">
+    <value>botonAfiliarSocio</value>
+  </data>
+  <data name="&gt;&gt;label20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;botonRegistrarAniadirFactura.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;comboBoxAdicionAniadirFacturaPA.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="botonRegistrarPersonaAutorizada.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 17</value>
+  </data>
+  <data name="botonCancelarPersonaA.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>panelAniadirFacturaPersonaA1</value>
+  </data>
+  <data name="labelFondosAniadirFactura.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="comboBoxSocioAniadirFactura.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 125</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn11.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn11</value>
+  </data>
+  <data name="textBoxCedulaFacturaSocio.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;botonPagarFacturaSocio.Name" xml:space="preserve">
+    <value>botonPagarFacturaSocio</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>panelAniadirFacturaPersonaA1</value>
+  </data>
+  <data name="comboBoxSocioRListarFacturaPersonaA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 47</value>
+  </data>
+  <data name="dataGridView2.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="ColumnaSuscripcionSocio.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBox1.Items4" xml:space="preserve">
+    <value>Bebida fria alcoholica</value>
+  </data>
+  <data name="&gt;&gt;tablaListarFacturaSocio.Name" xml:space="preserve">
+    <value>tablaListarFacturaSocio</value>
+  </data>
+  <data name="&gt;&gt;label9.Name" xml:space="preserve">
+    <value>label9</value>
+  </data>
+  <data name="&gt;&gt;textBoxCedulaFondosDisponiblesSocio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBoxBebidaFria.Items" xml:space="preserve">
+    <value>Milito (500 ml)[Nestle]</value>
+  </data>
+  <data name="comboBoxProductoAniadirFactura.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;comboBoxSocioRListarFacturaPersonaA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColumnaNSocio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPersonaAAniadirFactura.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label16.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;labelProductoAniadirFactura.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="textBoxFondosAniadirFactura.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;botonComboBoxCancelarBebida.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="button3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 197</value>
+  </data>
+  <data name="tablaListarFacturaSocio.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPersonaAAniadirFactura.Parent" xml:space="preserve">
+    <value>panelAniadirFacturaPersonaAu</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPersonaAAniadirFacturaPersonaA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label14.Name" xml:space="preserve">
+    <value>label14</value>
+  </data>
+  <data name="&gt;&gt;tablaIngredientesAniadirFacturaPersonaA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button5.Name" xml:space="preserve">
+    <value>button5</value>
+  </data>
+  <data name="&gt;&gt;panelSocioAniadirFacturaPersonaAu.Name" xml:space="preserve">
+    <value>panelSocioAniadirFacturaPersonaAu</value>
+  </data>
+  <data name="&gt;&gt;button8.Parent" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="&gt;&gt;panelComboBoxBebida.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panelComboBoxBebida.Parent" xml:space="preserve">
+    <value>panelContenedorDerecho</value>
+  </data>
+  <data name="botonRegistrarFondosDisponiblesSocio.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;comboBoxSocioRAfiliarPersonaA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button6.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;botonAceptarSocioAniadirFacturaPersonaA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelSaldoFondosDisponiblesSocio.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="label14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 197</value>
+  </data>
+  <data name="&gt;&gt;label15.Parent" xml:space="preserve">
+    <value>panelAniadirFacturaSocio</value>
+  </data>
+  <data name="&gt;&gt;comboBoxFacturaSocio.Parent" xml:space="preserve">
+    <value>panelListarFacturasSocio</value>
+  </data>
+  <data name="&gt;&gt;labelCedulaFondosDisponiblesSocio.Name" xml:space="preserve">
+    <value>labelCedulaFondosDisponiblesSocio</value>
+  </data>
+  <data name="tablaListarFacturaPersonaA.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;dataGridView2.Name" xml:space="preserve">
+    <value>dataGridView2</value>
+  </data>
+  <data name="&gt;&gt;dataGridView2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
+    <value>panelAniadirFacturaPersonaA1</value>
+  </data>
+  <data name="&gt;&gt;botonAgregarAdicionAniadirFacturaPA.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;button3.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;label23.Parent" xml:space="preserve">
+    <value>panelAniadirFacturaPersonaAu</value>
+  </data>
+  <data name="labelAdicionAniadirFacturaSocio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 423</value>
+  </data>
+  <data name="&gt;&gt;comboBox4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBoxListarPersonaA.Parent" xml:space="preserve">
+    <value>panelListarPersonaA</value>
+  </data>
+  <data name="&gt;&gt;label20.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;panelListarFacturasSocio.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="labelAniadirFacturaSocio.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;labelMenuIzquierdoSocio.Name" xml:space="preserve">
+    <value>labelMenuIzquierdoSocio</value>
+  </data>
+  <data name="&gt;&gt;botonEliminarListarSocio.Parent" xml:space="preserve">
+    <value>panelListarSocio</value>
+  </data>
+  <data name="&gt;&gt;labelMenuIzquierdoSocio.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="panelContenedorBotonesPersonaAutorizada.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 459</value>
+  </data>
+  <data name="rayita3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 458</value>
+  </data>
+  <data name="&gt;&gt;comboBoxListarSocio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPersonaAAniadirFacturaPersonaA.Parent" xml:space="preserve">
+    <value>panelAniadirFacturaPersonaA1</value>
+  </data>
+  <data name="&gt;&gt;label21.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="panelComboBoxBebida.Location" type="System.Drawing.Point, System.Drawing">
+    <value>526, 421</value>
+  </data>
+  <data name="&gt;&gt;textBoxValorAniadirFactura.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="label26.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="dataGridView1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>232, 165</value>
+  </data>
+  <data name="&gt;&gt;tablaListarSocio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn8.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn8</value>
+  </data>
+  <data name="comboBoxFacturaSocio.Items" xml:space="preserve">
+    <value>VIP</value>
+  </data>
+  <data name="&gt;&gt;button1.Name" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="&gt;&gt;textBoxCedulaSocioAfiliar.Name" xml:space="preserve">
+    <value>textBoxCedulaSocioAfiliar</value>
+  </data>
+  <data name="&gt;&gt;tablaListarSocio.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panelAniadirFacturaSocio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>887, 5</value>
+  </data>
+  <data name="&gt;&gt;label21.Parent" xml:space="preserve">
+    <value>panelAniadirFacturaPersonaAu</value>
+  </data>
+  <data name="&gt;&gt;panelContenedorBotonesPersonaAutorizada.Name" xml:space="preserve">
+    <value>panelContenedorBotonesPersonaAutorizada</value>
+  </data>
+  <data name="&gt;&gt;textBoxSaldoFondosDisponiblesSocio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label12.Name" xml:space="preserve">
+    <value>label12</value>
+  </data>
+  <data name="&gt;&gt;comboBoxBebidaFria.Name" xml:space="preserve">
+    <value>comboBoxBebidaFria</value>
+  </data>
+  <data name="comboBoxAdicionAniadirFacturaSocio.Items1" xml:space="preserve">
+    <value>Hamburguesa</value>
+  </data>
+  <data name="panelContenedorBotonesSocio.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="labelSocioListarFactura.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 10</value>
+  </data>
+  <data name="&gt;&gt;botonCancelarAniadirFactura.Parent" xml:space="preserve">
+    <value>panelAniadirFacturaSocio</value>
+  </data>
+  <data name="&gt;&gt;botonAfiliarSocio.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;comboBoxListarPersonaA.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;textBoxFondosAniadirFactura.Name" xml:space="preserve">
+    <value>textBoxFondosAniadirFactura</value>
+  </data>
+  <data name="labelFondosDisponiblesSocio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 50</value>
+  </data>
+  <data name="&gt;&gt;comboBox3.Name" xml:space="preserve">
+    <value>comboBox3</value>
+  </data>
+  <data name="&gt;&gt;labelMenuIzquierdoSocio.Parent" xml:space="preserve">
+    <value>panelPrincipalMenuIzquierdo</value>
+  </data>
+  <data name="&gt;&gt;labelFondosAniadirFactura.Name" xml:space="preserve">
+    <value>labelFondosAniadirFactura</value>
+  </data>
+  <data name="&gt;&gt;botonRegistrarSocioAfiliar.Name" xml:space="preserve">
+    <value>botonRegistrarSocioAfiliar</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;labelCedulaPersonaA.Parent" xml:space="preserve">
+    <value>panelAfiliarPersonaAutorizada</value>
+  </data>
+  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
+    <value>panelAniadirFacturaPersonaAu</value>
+  </data>
+  <data name="&gt;&gt;label16.Parent" xml:space="preserve">
+    <value>panelAniadirFacturaSocio</value>
+  </data>
+  <data name="&gt;&gt;comboBoxProductoAniadirFacturaPersonaA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBoxSuscripcionSocioAfiliar.Name" xml:space="preserve">
+    <value>comboBoxSuscripcionSocioAfiliar</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;label11.Name" xml:space="preserve">
+    <value>label11</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn14.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn14</value>
+  </data>
+  <data name="&gt;&gt;comboBox2.Parent" xml:space="preserve">
+    <value>panelAniadirFacturaPersonaAu</value>
+  </data>
+  <data name="&gt;&gt;comboBox4.Name" xml:space="preserve">
+    <value>comboBox4</value>
+  </data>
+  <data name="comboBoxBebidaFria.Items1" xml:space="preserve">
+    <value>Jugo de naranja (500 ml)[Frutiño]</value>
+  </data>
+  <data name="&gt;&gt;botonEliminarListarSocio.Name" xml:space="preserve">
+    <value>botonEliminarListarSocio</value>
+  </data>
+  <data name="&gt;&gt;panelContenedorDerecho.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBoxPersonaAAniadirFactura.Location" type="System.Drawing.Point, System.Drawing">
+    <value>60, 94</value>
+  </data>
+  <data name="&gt;&gt;panelListarFondosDisponiblesSocio.Name" xml:space="preserve">
+    <value>panelListarFondosDisponiblesSocio</value>
+  </data>
+  <data name="&gt;&gt;textBoxAumentoFondosDisponiblesSocio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button9.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;button6.Name" xml:space="preserve">
+    <value>button6</value>
+  </data>
+  <data name="botonConsultarFondosAniadirFactura.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="labelCedulaPersonaA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 192</value>
+  </data>
+  <data name="&gt;&gt;labelAniadirFacturaSocio.Parent" xml:space="preserve">
+    <value>panelAniadirFacturaSocio</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="botonPagarFacturaSocio.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panelListarSocio.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="comboBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 202</value>
+  </data>
+  <data name="&gt;&gt;button4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBoxSocioRPesonaA.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;botonRegistrarFondosDisponiblesSocio.Parent" xml:space="preserve">
+    <value>panelListarFondosDisponiblesSocio</value>
+  </data>
+  <data name="&gt;&gt;botonRegistrarSocioAfiliar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelAfiliarSocio.Parent" xml:space="preserve">
+    <value>panelAfiliarSocio</value>
+  </data>
+  <data name="&gt;&gt;labelSaldoFondosDisponiblesSocio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBoxCategoriaAniadirFacturaPA.Items1" xml:space="preserve">
+    <value>Postre</value>
+  </data>
+  <data name="&gt;&gt;botonCancelarFondosDisponiblesSocio.Parent" xml:space="preserve">
+    <value>panelListarFondosDisponiblesSocio</value>
+  </data>
+  <data name="&gt;&gt;label16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="comboBoxCategoriaAniadirFactura.Items1" xml:space="preserve">
+    <value>Postre</value>
+  </data>
+  <data name="textBoxFondosAniadirFacturaPersonaA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 440</value>
+  </data>
+  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 77</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 337</value>
+  </data>
+  <data name="&gt;&gt;botonPagarListarFacturaSocio.Name" xml:space="preserve">
+    <value>botonPagarListarFacturaSocio</value>
+  </data>
+  <data name="botonEliminarPersonaA.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;panelContenedorBotonesPersonaAutorizada.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="comboBoxCategoriaAniadirFactura.Items6" xml:space="preserve">
+    <value>Bebida caliente</value>
+  </data>
+  <data name="&gt;&gt;label13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxCedulaFacturaSocio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxFondosAniadirFacturaPersonaA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tablaListarSocio.Parent" xml:space="preserve">
+    <value>panelListarSocio</value>
+  </data>
+  <data name="labelNombreSocioAfiliar.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPersonaAListarFacturaPersonaA.Name" xml:space="preserve">
+    <value>comboBoxPersonaAListarFacturaPersonaA</value>
+  </data>
+  <data name="&gt;&gt;textBoxValorAniadirFacturaPA.Parent" xml:space="preserve">
+    <value>panelAniadirFacturaPersonaAu</value>
+  </data>
+  <data name="&gt;&gt;label20.Name" xml:space="preserve">
+    <value>label20</value>
+  </data>
+  <data name="&gt;&gt;botonEliminarPersonaA.Name" xml:space="preserve">
+    <value>botonEliminarPersonaA</value>
+  </data>
+  <data name="&gt;&gt;label17.Name" xml:space="preserve">
+    <value>label17</value>
+  </data>
+  <data name="comboBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>291, 152</value>
+  </data>
+  <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label22.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="botonRegistrarFondosDisponiblesSocio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>255, 409</value>
+  </data>
+  <data name="&gt;&gt;comboBox4.Parent" xml:space="preserve">
+    <value>panelAniadirFacturaPersonaAu</value>
+  </data>
+  <data name="&gt;&gt;tablaAdicionesAniadirFacturaPersonaA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelAfiliarPersonaAutorizada.Parent" xml:space="preserve">
+    <value>panelContenedorDerecho</value>
+  </data>
+  <data name="&gt;&gt;panelListarSocio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label26.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelCedulaPersonaA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tablaListarFacturaSocio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 94</value>
+  </data>
+  <data name="&gt;&gt;botonEliminarListarSocio.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;textBoxCedulaPersonaA.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="textBoxSaldoFondosDisponiblesSocio.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPersonaAListarFacturaPersonaA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelFondosAniadirFactura.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;botonRegistrarPersonaAutorizada.Parent" xml:space="preserve">
+    <value>panelContenedorBotonesPersonaAutorizada</value>
+  </data>
+  <data name="label20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 29</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPersonaAAniadirFactura.Name" xml:space="preserve">
+    <value>comboBoxPersonaAAniadirFactura</value>
+  </data>
+  <data name="&gt;&gt;labelNombreSocioAfiliar.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;textBoxCedulaFacturaSocio.Name" xml:space="preserve">
+    <value>textBoxCedulaFacturaSocio</value>
+  </data>
+  <data name="&gt;&gt;textBoxFondosListarFacturaPersonaA.Name" xml:space="preserve">
+    <value>textBoxFondosListarFacturaPersonaA</value>
+  </data>
+  <data name="botonVerAumentarFondosSocio.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="comboBoxSuscripcionSocioAfiliar.Items" xml:space="preserve">
+    <value>VIP</value>
+  </data>
+  <data name="&gt;&gt;rayita1.Name" xml:space="preserve">
+    <value>rayita1</value>
+  </data>
+  <data name="botonPagarListarFacturaSocio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>100, 67</value>
+  </data>
+  <data name="panelAniadirFacturaPersonaA1.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;comboBoxSocioRPesonaA.Parent" xml:space="preserve">
+    <value>panelListarPersonaA</value>
+  </data>
+  <data name="&gt;&gt;tablaListarFacturaPersonaA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="botonAgregarAdicionAniadirFacturaPA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>533, 209</value>
+  </data>
+  <data name="&gt;&gt;comboBoxBebidaFria.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="botonRegistrarPersonaAutorizada.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="botonCancelarAniadirFacturaPersonaA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>103, 496</value>
+  </data>
+  <data name="label28.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="comboBoxListarPersonaA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 62</value>
+  </data>
+  <data name="&gt;&gt;labelCedulaPersonaA.Name" xml:space="preserve">
+    <value>labelCedulaPersonaA</value>
+  </data>
+  <data name="tablaListarSocio.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="comboBoxCategoriaAniadirFacturaPA.Items5" xml:space="preserve">
+    <value>Bebida fria no alcoholica</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="textBoxCedulaFacturaSocio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 128</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn13.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn13</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelCedulaPersonaA.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="label27.Location" type="System.Drawing.Point, System.Drawing">
+    <value>60, 124</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBoxCategoriaAniadirFactura.Parent" xml:space="preserve">
+    <value>panelAniadirFacturaSocio</value>
+  </data>
+  <data name="&gt;&gt;label24.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;labelAfiliarPersonaA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxCedulaListarFacturaSocio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panelSocioAniadirFacturaPersonaA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>465, 287</value>
+  </data>
+  <data name="textBoxNombrePersonaA.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;textBoxCedulaSocioRPersonaA.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;textBoxValorAniadirFacturaPersonaA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelCedulaDelSocioAfiliar.Parent" xml:space="preserve">
+    <value>panelAfiliarSocio</value>
+  </data>
+  <data name="&gt;&gt;botonAceptarSocioAniadirFacturaPersonaA.Name" xml:space="preserve">
+    <value>botonAceptarSocioAniadirFacturaPersonaA</value>
+  </data>
+  <data name="&gt;&gt;button9.Name" xml:space="preserve">
+    <value>button9</value>
+  </data>
+  <data name="labelAfiliarPersonaA.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;labelCedulaFondosDisponiblesSocio.Parent" xml:space="preserve">
+    <value>panelListarFondosDisponiblesSocio</value>
+  </data>
+  <data name="&gt;&gt;textBoxCedulaListarFacturaSocio.Parent" xml:space="preserve">
+    <value>panelListarFacturasSocio</value>
+  </data>
+  <data name="comboBoxSocioRListarFacturaPersonaA.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="button8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 197</value>
+  </data>
+  <data name="textBoxCedulaSocioRPersonaA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 16</value>
+  </data>
+  <data name="&gt;&gt;comboBoxSocioRAniadirFacturaPersonaA.Parent" xml:space="preserve">
+    <value>panelSocioAniadirFacturaPersonaAu</value>
+  </data>
+  <data name="comboBoxListarSocio.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="comboBox1.Items" xml:space="preserve">
+    <value>VIP</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.Parent" xml:space="preserve">
+    <value>panelAniadirFacturaPersonaAu</value>
+  </data>
+  <data name="comboBoxCategoriaAniadirFacturaPA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>60, 152</value>
+  </data>
+  <data name="&gt;&gt;botonAumentarFondosDisponiblesSocio.Parent" xml:space="preserve">
+    <value>panelListarFondosDisponiblesSocio</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>panelAniadirFacturaPersonaA1</value>
+  </data>
+  <data name="&gt;&gt;botonCancelarFondosDisponiblesSocio.Name" xml:space="preserve">
+    <value>botonCancelarFondosDisponiblesSocio</value>
+  </data>
+  <data name="comboBoxSocioRAniadirFacturaPersonaA1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>60, 81</value>
+  </data>
+  <data name="&gt;&gt;botonCancelarAniadirFacturaPersonaA.Parent" xml:space="preserve">
+    <value>panelAniadirFacturaPersonaA1</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn1.HeaderText" xml:space="preserve">
+    <value>N</value>
+  </data>
+  <data name="&gt;&gt;botonCancelarAniadirFactura.Name" xml:space="preserve">
+    <value>botonCancelarAniadirFactura</value>
+  </data>
+  <data name="&gt;&gt;labelAfiliarPersonaA.Name" xml:space="preserve">
+    <value>labelAfiliarPersonaA</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Parent" xml:space="preserve">
+    <value>panelAniadirFacturaPersonaAu</value>
+  </data>
+  <data name="&gt;&gt;botonRegistrarSocioAfiliar.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="comboBoxCategoriaAniadirFactura.Items" xml:space="preserve">
+    <value>Entrada</value>
+  </data>
+  <data name="&gt;&gt;labelAdicionAniadirFacturaPA.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;panelContenedorTablaListarSocio.Parent" xml:space="preserve">
+    <value>panelContenedorDerecho</value>
+  </data>
+  <data name="&gt;&gt;label13.Parent" xml:space="preserve">
+    <value>panelListarFacturaPersonaA</value>
+  </data>
+  <data name="&gt;&gt;panelPrincipalMenuIzquierdo.Name" xml:space="preserve">
+    <value>panelPrincipalMenuIzquierdo</value>
+  </data>
+  <data name="panelContenedorDerecho.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="ColumnaCedulaSocio.HeaderText" xml:space="preserve">
+    <value>Cédula</value>
+  </data>
+  <data name="&gt;&gt;label15.Name" xml:space="preserve">
+    <value>label15</value>
+  </data>
+  <data name="botonAgregarAdicionAniadirFacturaPA.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="panelPrincipalMenuIzquierdo.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 102</value>
+  </data>
+  <data name="textBoxValorAniadirFacturaPersonaA.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;labelNombreSocioAfiliar.Parent" xml:space="preserve">
+    <value>panelAfiliarSocio</value>
+  </data>
+  <data name="botonAniadirFacturaSocio.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;label8.Name" xml:space="preserve">
+    <value>label8</value>
+  </data>
+  <data name="&gt;&gt;labelSocioListarFactura.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Name" xml:space="preserve">
+    <value>textBox1</value>
+  </data>
+  <data name="&gt;&gt;textBoxFondosListarFacturaPersonaA.Parent" xml:space="preserve">
+    <value>panelListarFacturaPersonaA</value>
+  </data>
+  <data name="comboBoxSocioFondosDisponibles.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;botonVerPagarFacturasSocio.Name" xml:space="preserve">
+    <value>botonVerPagarFacturasSocio</value>
+  </data>
+  <data name="&gt;&gt;button9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBoxCategoriaAniadirFactura.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="textBoxFondosAniadirFactura.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 313</value>
+  </data>
+  <data name="&gt;&gt;botonPagarFacturaSocio.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tablaListarFacturaPersonaA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 273</value>
+  </data>
+  <data name="&gt;&gt;botonAniadirFacturaSocio.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;textBoxFondosAniadirFacturaPersonaA.Name" xml:space="preserve">
+    <value>textBoxFondosAniadirFacturaPersonaA</value>
+  </data>
+  <data name="&gt;&gt;labelAfiliarPersonaA.Parent" xml:space="preserve">
+    <value>panelAfiliarPersonaAutorizada</value>
+  </data>
+  <data name="&gt;&gt;label12.Parent" xml:space="preserve">
+    <value>panelListarFacturaPersonaA</value>
+  </data>
+  <data name="&gt;&gt;comboBoxListarPersonaA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBoxBebidaFria.Parent" xml:space="preserve">
+    <value>panelComboBoxBebida</value>
+  </data>
+  <data name="&gt;&gt;rayita3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn13.Width" type="System.Int32, mscorlib">
+    <value>250</value>
+  </data>
+  <data name="&gt;&gt;comboBoxSocioRPesonaA.Name" xml:space="preserve">
+    <value>comboBoxSocioRPesonaA</value>
+  </data>
+  <data name="panelListarFacturaPersonaA.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;button6.Parent" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="comboBoxCategoriaAniadirFactura.Items4" xml:space="preserve">
+    <value>Bebida fria alcoholica</value>
+  </data>
+  <data name="&gt;&gt;panelAniadirFacturaPersonaA1.Name" xml:space="preserve">
+    <value>panelAniadirFacturaPersonaA1</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.Name" xml:space="preserve">
+    <value>dataGridView1</value>
+  </data>
+  <data name="&gt;&gt;botonAniadirFacturaPersonaAutorizada.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelNombrePersonaA.Name" xml:space="preserve">
+    <value>labelNombrePersonaA</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn6.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="&gt;&gt;comboBoxSocioRAfiliarPersonaA.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;botonAniadirFacturaSocio.Parent" xml:space="preserve">
+    <value>panelContenedorBotonesSocio</value>
+  </data>
+  <data name="&gt;&gt;botonListarEliminarPersonaAutorizada.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 257</value>
+  </data>
+  <data name="&gt;&gt;label25.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxCedulaListarFacturaSocio.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label10.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="comboBoxCategoriaAniadirFactura.Items3" xml:space="preserve">
+    <value>Plato fuerte vegano</value>
+  </data>
+  <data name="&gt;&gt;textBoxAumentoFondosDisponiblesSocio.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="botonRegistrarSocioAfiliar.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;botonAfiliarSocio.Parent" xml:space="preserve">
+    <value>panelContenedorBotonesSocio</value>
+  </data>
+  <data name="&gt;&gt;label15.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="botonVerPagarFacturasSocio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 197</value>
+  </data>
+  <data name="labelValorAniadirFactura.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 189</value>
+  </data>
+  <data name="&gt;&gt;botonCancelarAniadirFacturaPersonaA.Name" xml:space="preserve">
+    <value>botonCancelarAniadirFacturaPersonaA</value>
+  </data>
+  <data name="&gt;&gt;comboBoxListarFacturaSocio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBoxAdicionAniadirFacturaPA.Parent" xml:space="preserve">
+    <value>panelAniadirFacturaPersonaAu</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 15</value>
+  </data>
+  <data name="&gt;&gt;textBox2.Name" xml:space="preserve">
+    <value>textBox2</value>
+  </data>
+  <data name="&gt;&gt;textBoxFondosAniadirFacturaPA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label18.Parent" xml:space="preserve">
+    <value>panelComboBoxBebida</value>
+  </data>
+  <data name="&gt;&gt;tablaAdicionesAniadirFacturaPersonaA.Parent" xml:space="preserve">
+    <value>panelAniadirFacturaPersonaAu</value>
+  </data>
+  <data name="&gt;&gt;comboBoxSocioListarFactura.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="textBoxNombreSocioAfiliar.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button5.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;comboBoxSocioRPesonaA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBoxSocioAniadirFactura.Parent" xml:space="preserve">
+    <value>panelAniadirFacturaSocio</value>
+  </data>
+  <data name="&gt;&gt;textBoxFondosListarFacturaSocio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelAumentoFondosDisponiblesSocio.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tablaAdicionesAniadirFacturaSocio.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="botonAniadirFacturaSocio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 137</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn10.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn10</value>
+  </data>
+  <data name="&gt;&gt;label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBoxSocioRAniadirFacturaPersonaA.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;button8.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;comboBoxSocioFondosDisponibles.Parent" xml:space="preserve">
+    <value>panelListarFondosDisponiblesSocio</value>
+  </data>
+  <data name="&gt;&gt;labelFondosDisponiblesSocio.Name" xml:space="preserve">
+    <value>labelFondosDisponiblesSocio</value>
+  </data>
+  <data name="&gt;&gt;comboBoxFacturaSocio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBoxListarSocio.Items" xml:space="preserve">
+    <value>VIP</value>
+  </data>
+  <data name="&gt;&gt;tablaAdicionesAniadirFacturaSocio.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;panelAfiliarSocio.Name" xml:space="preserve">
+    <value>panelAfiliarSocio</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn9.Width" type="System.Int32, mscorlib">
+    <value>250</value>
+  </data>
+  <data name="&gt;&gt;botonVerAumentarFondosSocio.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;botonListarEliminarSocio.Parent" xml:space="preserve">
+    <value>panelContenedorBotonesSocio</value>
+  </data>
+  <data name="&gt;&gt;panelAfiliarPersonaAutorizada.Name" xml:space="preserve">
+    <value>panelAfiliarPersonaAutorizada</value>
+  </data>
+  <data name="comboBoxCategoriaAniadirFactura.Items5" xml:space="preserve">
+    <value>Bebida fria no alcoholica</value>
+  </data>
+  <data name="&gt;&gt;labelNombreSocioAfiliar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelListarFondosDisponiblesSocio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBoxProductoAniadirFacturaPersonaA.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="labelAfiliarSocio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>149, 48</value>
+  </data>
+  <data name="&gt;&gt;comboBoxSocioFondosDisponibles.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;botonCancelarSocioAfiliar.Parent" xml:space="preserve">
+    <value>panelAfiliarSocio</value>
+  </data>
+  <data name="&gt;&gt;labelSocioResponsablePersonaA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBox1.Items1" xml:space="preserve">
+    <value>Regular</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="&gt;&gt;botonRegistrarPersonaAutorizada.Name" xml:space="preserve">
+    <value>botonRegistrarPersonaAutorizada</value>
+  </data>
+  <data name="&gt;&gt;comboBoxProductoAniadirFactura.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="comboBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;labelValorAniadirFactura.Name" xml:space="preserve">
+    <value>labelValorAniadirFactura</value>
+  </data>
+  <data name="&gt;&gt;botonListarEliminarPersonaAutorizada.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="botonListarEliminarSocio.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="comboBoxSocioListarFactura.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="textBoxValorAniadirFacturaPersonaA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 353</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panelAniadirFacturaPersonaA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>304, 229</value>
+  </data>
+  <data name="comboBoxGramajeAzucar.Items1" xml:space="preserve">
+    <value>5g</value>
+  </data>
+  <data name="botonConsularFondosDisponiblesSocio.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;label10.Name" xml:space="preserve">
+    <value>label10</value>
+  </data>
+  <data name="panelContenedorBotonesSocio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 69</value>
+  </data>
+  <data name="&gt;&gt;comboBoxGramajeAzucar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label20.Parent" xml:space="preserve">
+    <value>panelAniadirFacturaPersonaAu</value>
+  </data>
+  <data name="&gt;&gt;labelMenuIzquierdoPersonaAutorizada.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;comboBoxAdicionAniadirFacturaSocio.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;comboBox3.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="comboBoxGramajeAzucar.Items" xml:space="preserve">
+    <value>2g</value>
+  </data>
+  <data name="label23.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.Parent" xml:space="preserve">
+    <value>panelAniadirFacturaPersonaAu</value>
+  </data>
+  <data name="rayita1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;label28.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ColumnaCedulaSocio.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="&gt;&gt;rayita1.Parent" xml:space="preserve">
+    <value>panelContenedorBotonesSocio</value>
+  </data>
+  <data name="&gt;&gt;textBoxCedulaSocioAfiliar.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="botonEliminarListarSocio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 51</value>
+  </data>
+  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>354, 0</value>
+  </data>
+  <data name="labelMenuIzquierdoPersonaAutorizada.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 390</value>
+  </data>
+  <data name="&gt;&gt;label19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;botonCancelarSocioAfiliar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelMenuIzquierdoPersonaAutorizada.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="comboBoxProductoAniadirFactura.Items" xml:space="preserve">
+    <value>VIP</value>
+  </data>
+  <data name="&gt;&gt;label26.Parent" xml:space="preserve">
+    <value>panelAniadirFacturaPersonaAu</value>
+  </data>
+  <data name="tablaIngredientesAniadirFacturaPersonaA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>67, 288</value>
+  </data>
+  <data name="&gt;&gt;label23.Name" xml:space="preserve">
+    <value>label23</value>
+  </data>
+  <data name="&gt;&gt;button9.Parent" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="&gt;&gt;botonAgregarAdicionAniadirFacturaSocio.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;labelProductoAniadirFactura.Name" xml:space="preserve">
+    <value>labelProductoAniadirFactura</value>
+  </data>
+  <data name="&gt;&gt;label18.Name" xml:space="preserve">
+    <value>label18</value>
+  </data>
+  <data name="botonPagarListarFacturaSocio.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="botonCancelarSocioAfiliar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 409</value>
+  </data>
+  <data name="botonConsultarFondosAniadirFactura.Location" type="System.Drawing.Point, System.Drawing">
+    <value>144, 432</value>
+  </data>
+  <data name="&gt;&gt;comboBoxSocioRAfiliarPersonaA.Name" xml:space="preserve">
+    <value>comboBoxSocioRAfiliarPersonaA</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn10.HeaderText" xml:space="preserve">
+    <value>N</value>
+  </data>
+  <data name="labelMenuIzquierdoSocio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;comboBoxSuscripcionSocioAfiliar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelContenedorBotonesSocio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 29</value>
+  </data>
+  <data name="rayita1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;labelFacturaAPagarListarFactura.Name" xml:space="preserve">
+    <value>labelFacturaAPagarListarFactura</value>
+  </data>
+  <data name="&gt;&gt;botonComboBoxAceptarBebiba.Name" xml:space="preserve">
+    <value>botonComboBoxAceptarBebiba</value>
+  </data>
+  <data name="&gt;&gt;textBoxFondosListarFacturaPersonaA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tablaIngredientesAniadirFacturaPersonaA.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="comboBoxCategoriaAniadirFacturaPA.Items3" xml:space="preserve">
+    <value>Plato fuerte vegano</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn2.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn2</value>
+  </data>
+  <data name="&gt;&gt;comboBoxSocioListarFactura.Name" xml:space="preserve">
+    <value>comboBoxSocioListarFactura</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn8.HeaderText" xml:space="preserve">
+    <value>N</value>
+  </data>
+  <data name="botonListarEliminarPersonaAutorizada.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label23.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelListarPersonaA.Parent" xml:space="preserve">
+    <value>panelContenedorDerecho</value>
+  </data>
+  <data name="&gt;&gt;botonAumentarFondosDisponiblesSocio.Name" xml:space="preserve">
+    <value>botonAumentarFondosDisponiblesSocio</value>
+  </data>
+  <data name="ColumnaNSocio.HeaderText" xml:space="preserve">
+    <value>N</value>
+  </data>
+  <data name="labelAdicionAniadirFacturaPA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>291, 184</value>
+  </data>
+  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;label22.Parent" xml:space="preserve">
+    <value>panelAniadirFacturaPersonaAu</value>
+  </data>
+  <data name="textBoxNombreSocioAfiliar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 264</value>
+  </data>
+  <data name="&gt;&gt;botonRegistrarPersonaA.Parent" xml:space="preserve">
+    <value>panelAfiliarPersonaAutorizada</value>
+  </data>
+  <data name="&gt;&gt;label11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelProductoAniadirFactura.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;panel3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;panelAniadirFacturaPersonaA.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="labelAumentoFondosDisponiblesSocio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 298</value>
+  </data>
+  <data name="&gt;&gt;panelContenedorTablaListarSocio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxFondosAniadirFacturaPersonaA.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="comboBoxProductoAniadirFactura.Items1" xml:space="preserve">
+    <value>Regular</value>
+  </data>
+  <data name="&gt;&gt;comboBoxProductoAniadirFacturaPersonaA.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;label11.Parent" xml:space="preserve">
+    <value>panelListarFacturaPersonaA</value>
+  </data>
+  <data name="&gt;&gt;botonVerPagarFacturasSocio.Parent" xml:space="preserve">
+    <value>panelContenedorBotonesSocio</value>
+  </data>
+  <data name="botonAceptarSocioAniadirFacturaPersonaA.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;columnaValorTablaFacturaSocio.Name" xml:space="preserve">
+    <value>columnaValorTablaFacturaSocio</value>
+  </data>
+  <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 173</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelListarPersonaA.Name" xml:space="preserve">
+    <value>panelListarPersonaA</value>
+  </data>
+  <data name="&gt;&gt;panelAniadirFacturaSocio.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>136, 341</value>
+  </data>
+  <data name="&gt;&gt;textBoxNombrePersonaA.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;botonConsularFondosDisponiblesSocio.Parent" xml:space="preserve">
+    <value>panelListarFondosDisponiblesSocio</value>
+  </data>
+  <data name="&gt;&gt;comboBoxCategoriaAniadirFacturaPA.Name" xml:space="preserve">
+    <value>comboBoxCategoriaAniadirFacturaPA</value>
+  </data>
+  <data name="&gt;&gt;comboBox3.Parent" xml:space="preserve">
+    <value>panelAniadirFacturaPersonaAu</value>
+  </data>
+  <data name="&gt;&gt;botonAgregarAdicionAniadirFacturaSocio.Name" xml:space="preserve">
+    <value>botonAgregarAdicionAniadirFacturaSocio</value>
+  </data>
+  <data name="label25.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;textBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn12.HeaderText" xml:space="preserve">
+    <value>N</value>
+  </data>
+  <data name="comboBoxProductoAniadirFacturaPersonaA.Items1" xml:space="preserve">
+    <value>Hamburguesa</value>
+  </data>
+  <data name="&gt;&gt;labelFacturaAPagarListarFactura.Parent" xml:space="preserve">
+    <value>panelListarFacturasSocio</value>
+  </data>
+  <data name="panelAniadirFacturaPersonaA.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;button5.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;botonVerAumentarFondosSocio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBoxBebidaFria.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;textBoxNombrePersonaA.Parent" xml:space="preserve">
+    <value>panelAfiliarPersonaAutorizada</value>
+  </data>
+  <data name="botonVerAumentarFondosSocio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 257</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelAniadirFacturaSocio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="botonListarEliminarPersonaAutorizada.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 77</value>
+  </data>
+  <data name="&gt;&gt;botonRegistrarFondosDisponiblesSocio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button10.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;botonComboBoxCancelarBebida.Parent" xml:space="preserve">
+    <value>panelComboBoxBebida</value>
+  </data>
+  <data name="&gt;&gt;label25.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="textBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>327, 362</value>
+  </data>
+  <data name="panelListarPersonaA.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;textBoxFondosAniadirFacturaPA.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;comboBoxAdicionAniadirFacturaPA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelFondosDisponiblesSocio.Parent" xml:space="preserve">
+    <value>panelListarFondosDisponiblesSocio</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBoxCategoriaAniadirFacturaPA.Parent" xml:space="preserve">
+    <value>panelAniadirFacturaPersonaAu</value>
+  </data>
+  <data name="&gt;&gt;label27.Name" xml:space="preserve">
+    <value>label27</value>
+  </data>
+  <data name="comboBoxAdicionAniadirFacturaSocio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 459</value>
+  </data>
+  <data name="labelNombrePersonaA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 286</value>
+  </data>
+  <data name="&gt;&gt;botonAceptarSocioAniadirFacturaPersonaA.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="botonRegistrarAniadirFactura.Location" type="System.Drawing.Point, System.Drawing">
+    <value>255, 409</value>
+  </data>
+  <data name="tablaListarSocio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;tablaIngredientesAniadirFacturaSocio.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;comboBoxFacturaSocio.Name" xml:space="preserve">
+    <value>comboBoxFacturaSocio</value>
+  </data>
+  <data name="&gt;&gt;botonVerPagarFacturasPersonaAutorizada.Name" xml:space="preserve">
+    <value>botonVerPagarFacturasPersonaAutorizada</value>
+  </data>
+  <data name="panelAniadirFacturaPersonaAu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>658, 100</value>
+  </data>
+  <data name="&gt;&gt;label28.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelAniadirFacturaPersonaA1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>346, 68</value>
+  </data>
+  <data name="&gt;&gt;textBoxSaldoFondosDisponiblesSocio.Name" xml:space="preserve">
+    <value>textBoxSaldoFondosDisponiblesSocio</value>
+  </data>
+  <data name="label23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>60, 68</value>
+  </data>
+  <data name="labelSaldoFondosDisponiblesSocio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 214</value>
+  </data>
+  <data name="button4.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="textBoxCedulaListarFacturaSocio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 14</value>
+  </data>
+  <data name="&gt;&gt;botonPagarListarFacturaPersonaA.Parent" xml:space="preserve">
+    <value>panelListarFacturaPersonaA</value>
+  </data>
+  <data name="&gt;&gt;panelContenedorDerecho.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;button5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label19.Name" xml:space="preserve">
+    <value>label19</value>
+  </data>
+  <data name="&gt;&gt;label22.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelListarPersonaA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelValorAniadirFactura.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 390</value>
+  </data>
+  <data name="comboBox2.Items2" xml:space="preserve">
+    <value>Aguardiente (Garrafa)</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelAniadirFacturaPersonaA.Name" xml:space="preserve">
+    <value>panelAniadirFacturaPersonaA</value>
+  </data>
+  <data name="label19.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;labelFondosAniadirFactura.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn1.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn1</value>
+  </data>
+  <data name="&gt;&gt;botonRegistrarPersonaA.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;label13.Name" xml:space="preserve">
+    <value>label13</value>
+  </data>
+  <data name="label28.Location" type="System.Drawing.Point, System.Drawing">
+    <value>52, 14</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPersonaAAniadirFactura.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;botonAumentarFondosDisponiblesSocio.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label21.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="columnaDescipcionTablaFacturaSocio.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="labelAdicionAniadirFacturaSocio.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;textBoxSaldoFondosDisponiblesSocio.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="labelCedulaFondosDisponiblesSocio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 124</value>
+  </data>
+  <data name="&gt;&gt;comboBoxSocioListarFactura.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;textBoxFondosAniadirFacturaPA.Name" xml:space="preserve">
+    <value>textBoxFondosAniadirFacturaPA</value>
+  </data>
+  <data name="&gt;&gt;panelComboBoxBebida.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn2.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="&gt;&gt;textBoxFondosListarFacturaSocio.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+    <value>panelAniadirFacturaPersonaAu</value>
+  </data>
+  <data name="&gt;&gt;comboBoxCategoriaAniadirFactura.Name" xml:space="preserve">
+    <value>comboBoxCategoriaAniadirFactura</value>
+  </data>
+  <data name="comboBoxBebidaFria.Location" type="System.Drawing.Point, System.Drawing">
+    <value>39, 84</value>
+  </data>
+  <data name="&gt;&gt;panelSocioAniadirFacturaPersonaA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBoxCategoriaAniadirFactura.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;botonRegistrarPersonaA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tablaAdicionesAniadirFacturaSocio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panel3.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="comboBoxSocioRPesonaA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 50</value>
+  </data>
+  <data name="botonCancelarAniadirFactura.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 409</value>
+  </data>
+  <data name="&gt;&gt;botonVerAumentarFondosSocio.Name" xml:space="preserve">
+    <value>botonVerAumentarFondosSocio</value>
+  </data>
+  <data name="comboBoxListarFacturaSocio.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="panelSocioAniadirFacturaPersonaA.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;labelSocioListarFactura.Parent" xml:space="preserve">
+    <value>panelListarFacturasSocio</value>
+  </data>
+  <data name="&gt;&gt;botonAniadirFacturaPersonaA.Parent" xml:space="preserve">
+    <value>panelAniadirFacturaPersonaA1</value>
+  </data>
+  <data name="botonVerPagarFacturasPersonaAutorizada.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;labelCedulaFondosDisponiblesSocio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelListarFondosDisponiblesSocio.Parent" xml:space="preserve">
+    <value>panelContenedorDerecho</value>
+  </data>
+  <data name="textBoxFondosAniadirFacturaPA.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;rayita2.Parent" xml:space="preserve">
+    <value>panelContenedorBotonesSocio</value>
+  </data>
+  <data name="botonListarFacturaSocio.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>panelAniadirFacturaPersonaA1</value>
+  </data>
+  <data name="&gt;&gt;botonPagarFacturaSocio.Parent" xml:space="preserve">
+    <value>panelListarFacturasSocio</value>
+  </data>
+  <data name="botonVerPagarFacturasSocio.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tablaListarFacturaSocio.Parent" xml:space="preserve">
+    <value>panelListarFacturasSocio</value>
+  </data>
+  <data name="&gt;&gt;labelAfiliarSocio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBoxAdicionAniadirFacturaSocio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelContenedorTablaListarSocio.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;textBoxNombrePersonaA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label27.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelListarSocio.Name" xml:space="preserve">
+    <value>panelListarSocio</value>
+  </data>
+  <data name="&gt;&gt;comboBox2.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="botonEliminarPersonaA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 106</value>
+  </data>
+  <data name="&gt;&gt;panelContenedorTablaListarSocio.Name" xml:space="preserve">
+    <value>panelContenedorTablaListarSocio</value>
+  </data>
+  <data name="textBoxCedulaFondosDisponiblesSocio.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="comboBoxSuscripcionSocioAfiliar.Items1" xml:space="preserve">
+    <value>Regular</value>
+  </data>
+  <data name="botonCancelarFondosDisponiblesSocio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 409</value>
+  </data>
+  <data name="&gt;&gt;panelAfiliarSocio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBoxProductoAniadirFactura.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="panelPrincipalMenuIzquierdo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;panelContenedorBotonesPersonaAutorizada.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tablaListarSocio.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="comboBoxProductoAniadirFacturaPA.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;labelCedulaDelSocioAfiliar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;botonRegistrarAniadirFactura.Name" xml:space="preserve">
+    <value>botonRegistrarAniadirFactura</value>
+  </data>
+  <data name="&gt;&gt;comboBoxSuscripcionSocioAfiliar.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;textBoxFondosAniadirFactura.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;textBoxValorAniadirFactura.Name" xml:space="preserve">
+    <value>textBoxValorAniadirFactura</value>
+  </data>
+  <data name="&gt;&gt;botonAgregarAdicionAniadirFacturaSocio.Parent" xml:space="preserve">
+    <value>panelAniadirFacturaSocio</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn8.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn1.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <metadata name="dataGridViewTextBoxColumn11.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn14.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ColumnaSuscripcionSocio.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn13.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="columnaDescipcionTablaFacturaSocio.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn3.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn5.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ColumnaCedulaSocio.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ColumnaNSocio.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="columnaValorTablaFacturaSocio.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn10.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn8.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn15.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn9.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn4.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ColumnaNombreSocio.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn7.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn12.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn6.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, System.Private.CoreLib, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>es</value>
+  </metadata>
+</root>

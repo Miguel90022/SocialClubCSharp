@@ -1,0 +1,2346 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="rayita3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="rayita3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 611</value>
+  </data>
+  <data name="rayita3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>399, 1</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="botonAniadirFacturaPersonaAutorizada.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="botonAniadirFacturaPersonaAutorizada.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="botonAniadirFacturaPersonaAutorizada.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt, style=Italic</value>
+  </data>
+  <data name="botonAniadirFacturaPersonaAutorizada.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="botonAniadirFacturaPersonaAutorizada.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 183</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="botonAniadirFacturaPersonaAutorizada.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="botonAniadirFacturaPersonaAutorizada.Size" type="System.Drawing.Size, System.Drawing">
+    <value>365, 60</value>
+  </data>
+  <data name="botonAniadirFacturaPersonaAutorizada.Text" xml:space="preserve">
+    <value>Añadir factura</value>
+  </data>
+  <data name="botonVerPagarFacturasPersonaAutorizada.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="botonVerPagarFacturasPersonaAutorizada.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="botonVerPagarFacturasPersonaAutorizada.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt, style=Italic</value>
+  </data>
+  <data name="botonVerPagarFacturasPersonaAutorizada.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="botonVerPagarFacturasPersonaAutorizada.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 263</value>
+  </data>
+  <data name="botonVerPagarFacturasPersonaAutorizada.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="botonVerPagarFacturasPersonaAutorizada.Size" type="System.Drawing.Size, System.Drawing">
+    <value>365, 60</value>
+  </data>
+  <data name="botonVerPagarFacturasPersonaAutorizada.Text" xml:space="preserve">
+    <value>Ver / Pagar facturas</value>
+  </data>
+  <data name="botonListarEliminarPersonaAutorizada.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="botonListarEliminarPersonaAutorizada.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="botonListarEliminarPersonaAutorizada.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt, style=Italic</value>
+  </data>
+  <data name="botonListarEliminarPersonaAutorizada.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="botonListarEliminarPersonaAutorizada.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 103</value>
+  </data>
+  <data name="botonListarEliminarPersonaAutorizada.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="botonListarEliminarPersonaAutorizada.Size" type="System.Drawing.Size, System.Drawing">
+    <value>365, 60</value>
+  </data>
+  <data name="botonListarEliminarPersonaAutorizada.Text" xml:space="preserve">
+    <value>Listar / Eliminar</value>
+  </data>
+  <data name="botonRegistrarPersonaAutorizada.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="botonRegistrarPersonaAutorizada.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="botonRegistrarPersonaAutorizada.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt, style=Italic</value>
+  </data>
+  <data name="botonRegistrarPersonaAutorizada.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="botonRegistrarPersonaAutorizada.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 23</value>
+  </data>
+  <data name="botonRegistrarPersonaAutorizada.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="botonRegistrarPersonaAutorizada.Size" type="System.Drawing.Size, System.Drawing">
+    <value>365, 60</value>
+  </data>
+  <data name="botonRegistrarPersonaAutorizada.Text" xml:space="preserve">
+    <value>Registrar</value>
+  </data>
+  <data name="panelContenedorBotonesPersonaAutorizada.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panelContenedorBotonesPersonaAutorizada.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 612</value>
+  </data>
+  <data name="panelContenedorBotonesPersonaAutorizada.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panelContenedorBotonesPersonaAutorizada.Size" type="System.Drawing.Size, System.Drawing">
+    <value>399, 344</value>
+  </data>
+  <data name="labelMenuIzquierdoPersonaAutorizada.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="labelMenuIzquierdoPersonaAutorizada.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt, style=Bold</value>
+  </data>
+  <data name="labelMenuIzquierdoPersonaAutorizada.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelMenuIzquierdoPersonaAutorizada.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 520</value>
+  </data>
+  <data name="labelMenuIzquierdoPersonaAutorizada.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 13, 0, 0</value>
+  </data>
+  <data name="labelMenuIzquierdoPersonaAutorizada.Size" type="System.Drawing.Size, System.Drawing">
+    <value>399, 92</value>
+  </data>
+  <data name="labelMenuIzquierdoPersonaAutorizada.Text" xml:space="preserve">
+    <value>Funcionalidades referentes a las personas autorizadas
+</value>
+  </data>
+  <data name="labelMenuIzquierdoPersonaAutorizada.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="rayita1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rayita1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>399, 1</value>
+  </data>
+  <data name="rayita2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rayita2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 427</value>
+  </data>
+  <data name="rayita2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>399, 1</value>
+  </data>
+  <data name="botonAniadirFacturaSocio.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="botonAniadirFacturaSocio.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="botonAniadirFacturaSocio.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt, style=Italic</value>
+  </data>
+  <data name="botonAniadirFacturaSocio.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="botonAniadirFacturaSocio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 183</value>
+  </data>
+  <data name="botonAniadirFacturaSocio.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="botonAniadirFacturaSocio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>365, 60</value>
+  </data>
+  <data name="botonAniadirFacturaSocio.Text" xml:space="preserve">
+    <value>Añadir factura</value>
+  </data>
+  <data name="botonVerAumentarFondosSocio.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="botonVerAumentarFondosSocio.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="botonVerAumentarFondosSocio.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt, style=Italic</value>
+  </data>
+  <data name="botonVerAumentarFondosSocio.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="botonVerAumentarFondosSocio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 343</value>
+  </data>
+  <data name="botonVerAumentarFondosSocio.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="botonVerAumentarFondosSocio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>365, 60</value>
+  </data>
+  <data name="botonVerAumentarFondosSocio.Text" xml:space="preserve">
+    <value>Ver / Aumentar fondos</value>
+  </data>
+  <data name="botonVerPagarFacturasSocio.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="botonVerPagarFacturasSocio.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="botonVerPagarFacturasSocio.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt, style=Italic</value>
+  </data>
+  <data name="botonVerPagarFacturasSocio.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="botonVerPagarFacturasSocio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 263</value>
+  </data>
+  <data name="botonVerPagarFacturasSocio.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="botonVerPagarFacturasSocio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>365, 60</value>
+  </data>
+  <data name="botonVerPagarFacturasSocio.Text" xml:space="preserve">
+    <value>Ver / Pagar facturas</value>
+  </data>
+  <data name="botonListarEliminarSocio.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="botonListarEliminarSocio.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="botonListarEliminarSocio.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt, style=Italic</value>
+  </data>
+  <data name="botonListarEliminarSocio.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="botonListarEliminarSocio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 103</value>
+  </data>
+  <data name="botonListarEliminarSocio.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="botonListarEliminarSocio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>365, 60</value>
+  </data>
+  <data name="botonListarEliminarSocio.Text" xml:space="preserve">
+    <value>Listar / Eliminar</value>
+  </data>
+  <data name="botonAfiliarSocio.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="botonAfiliarSocio.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="botonAfiliarSocio.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt, style=Italic</value>
+  </data>
+  <data name="botonAfiliarSocio.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="botonAfiliarSocio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 23</value>
+  </data>
+  <data name="botonAfiliarSocio.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="botonAfiliarSocio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>365, 60</value>
+  </data>
+  <data name="botonAfiliarSocio.Text" xml:space="preserve">
+    <value>Afiliar</value>
+  </data>
+  <data name="panelContenedorBotonesSocio.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panelContenedorBotonesSocio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 92</value>
+  </data>
+  <data name="panelContenedorBotonesSocio.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panelContenedorBotonesSocio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>399, 428</value>
+  </data>
+  <data name="labelMenuIzquierdoSocio.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="labelMenuIzquierdoSocio.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt, style=Bold</value>
+  </data>
+  <data name="labelMenuIzquierdoSocio.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 13, 0, 0</value>
+  </data>
+  <data name="labelMenuIzquierdoSocio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>399, 92</value>
+  </data>
+  <data name="labelMenuIzquierdoSocio.Text" xml:space="preserve">
+    <value>Funcionalidades referentes a los socios</value>
+  </data>
+  <data name="labelMenuIzquierdoSocio.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="panelPrincipalMenuIzquierdo.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="panelPrincipalMenuIzquierdo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panelPrincipalMenuIzquierdo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>401, 959</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn5.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn6.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn7.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="tablaListarFacturaPersonaA.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="tablaListarFacturaPersonaA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 363</value>
+  </data>
+  <data name="tablaListarFacturaPersonaA.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tablaListarFacturaPersonaA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>379, 337</value>
+  </data>
+  <data name="label13.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="label13.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label13.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="label13.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 181</value>
+  </data>
+  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>248, 31</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>Fondos disponibles</value>
+  </data>
+  <data name="textBoxFondosListarFacturaPersonaA.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="textBoxFondosListarFacturaPersonaA.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt</value>
+  </data>
+  <data name="textBoxFondosListarFacturaPersonaA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 219</value>
+  </data>
+  <data name="textBoxFondosListarFacturaPersonaA.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="textBoxFondosListarFacturaPersonaA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>372, 27</value>
+  </data>
+  <data name="label12.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="label12.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label12.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt</value>
+  </data>
+  <data name="label12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>34, 261</value>
+  </data>
+  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>315, 40</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>Solamente podra pagar la primer factura 
+de la tabla</value>
+  </data>
+  <data name="label12.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="label10.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="label10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="label10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 11</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>237, 31</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>Socio responsable</value>
+  </data>
+  <data name="label11.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="label11.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="label11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 101</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>249, 31</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>Persona autorizada</value>
+  </data>
+  <data name="comboBoxSocioRListarFacturaPersonaA.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="comboBoxSocioRListarFacturaPersonaA.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt</value>
+  </data>
+  <data name="comboBoxSocioRListarFacturaPersonaA.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="comboBoxSocioRListarFacturaPersonaA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>373, 28</value>
+  </data>
+  <data name="botonPagarListarFacturaPersonaA.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="botonPagarListarFacturaPersonaA.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="botonPagarListarFacturaPersonaA.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="botonPagarListarFacturaPersonaA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 311</value>
+  </data>
+  <data name="botonPagarListarFacturaPersonaA.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="botonPagarListarFacturaPersonaA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 47</value>
+  </data>
+  <data name="botonPagarListarFacturaPersonaA.Text" xml:space="preserve">
+    <value>Pagar</value>
+  </data>
+  <data name="comboBoxPersonaAListarFacturaPersonaA.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="comboBoxPersonaAListarFacturaPersonaA.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt</value>
+  </data>
+  <data name="comboBoxPersonaAListarFacturaPersonaA.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="comboBoxPersonaAListarFacturaPersonaA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>373, 28</value>
+  </data>
+  <data name="panelListarFacturaPersonaA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>791, 725</value>
+  </data>
+  <data name="panelListarFacturaPersonaA.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panelListarFacturaPersonaA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>379, 700</value>
+  </data>
+  <data name="panelListarFacturaPersonaA.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label18.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="label18.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label18.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.8pt</value>
+  </data>
+  <data name="label18.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 15</value>
+  </data>
+  <data name="label18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>376, 44</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>Seleccione una bebida fria no alcoholica y un 
+gramaje de azucar para acompañar su plato.</value>
+  </data>
+  <data name="comboBoxGramajeAzucar.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="comboBoxGramajeAzucar.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="comboBoxGramajeAzucar.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="comboBoxGramajeAzucar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 33</value>
+  </data>
+  <data name="botonComboBoxAceptarBebiba.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="botonComboBoxAceptarBebiba.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt</value>
+  </data>
+  <data name="botonComboBoxAceptarBebiba.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="botonComboBoxAceptarBebiba.Location" type="System.Drawing.Point, System.Drawing">
+    <value>121, 129</value>
+  </data>
+  <data name="botonComboBoxAceptarBebiba.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="botonComboBoxAceptarBebiba.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 52</value>
+  </data>
+  <data name="botonComboBoxAceptarBebiba.Text" xml:space="preserve">
+    <value>Aceptar</value>
+  </data>
+  <data name="comboBoxBebidaFria.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="comboBoxBebidaFria.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="comboBoxBebidaFria.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 84</value>
+  </data>
+  <data name="comboBoxBebidaFria.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="comboBoxBebidaFria.Size" type="System.Drawing.Size, System.Drawing">
+    <value>294, 33</value>
+  </data>
+  <data name="panelComboBoxBebida.Location" type="System.Drawing.Point, System.Drawing">
+    <value>753, 795</value>
+  </data>
+  <data name="panelComboBoxBebida.Size" type="System.Drawing.Size, System.Drawing">
+    <value>394, 191</value>
+  </data>
+  <data name="panelComboBoxBebida.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="comboBoxCategoriaAniadirFacturaPA.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="comboBoxCategoriaAniadirFacturaPA.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="comboBoxCategoriaAniadirFacturaPA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 203</value>
+  </data>
+  <data name="comboBoxCategoriaAniadirFacturaPA.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="comboBoxCategoriaAniadirFacturaPA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>249, 33</value>
+  </data>
+  <data name="label19.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="label19.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label19.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="label19.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>333, 167</value>
+  </data>
+  <data name="label19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 31</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>Producto</value>
+  </data>
+  <data name="label20.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label20.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
+  </data>
+  <data name="label20.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>455, 341</value>
+  </data>
+  <data name="label20.Text" xml:space="preserve">
+    <value>Adicion</value>
+  </data>
+  <data name="label21.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label21.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
+  </data>
+  <data name="label21.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>136, 341</value>
+  </data>
+  <data name="label21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 29</value>
+  </data>
+  <data name="label21.Text" xml:space="preserve">
+    <value>Ingredientes</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn12.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn13.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="tablaAdicionesAniadirFacturaPersonaA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>373, 384</value>
+  </data>
+  <data name="tablaAdicionesAniadirFacturaPersonaA.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tablaAdicionesAniadirFacturaPersonaA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>271, 223</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn14.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn15.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="tablaIngredientesAniadirFacturaPersonaA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 384</value>
+  </data>
+  <data name="tablaIngredientesAniadirFacturaPersonaA.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tablaIngredientesAniadirFacturaPersonaA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>271, 223</value>
+  </data>
+  <data name="botonAgregarAdicionAniadirFacturaPA.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="botonAgregarAdicionAniadirFacturaPA.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="botonAgregarAdicionAniadirFacturaPA.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="botonAgregarAdicionAniadirFacturaPA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>609, 279</value>
+  </data>
+  <data name="botonAgregarAdicionAniadirFacturaPA.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="botonAgregarAdicionAniadirFacturaPA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 47</value>
+  </data>
+  <data name="botonAgregarAdicionAniadirFacturaPA.Text" xml:space="preserve">
+    <value>+</value>
+  </data>
+  <data name="comboBoxAdicionAniadirFacturaPA.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="comboBoxAdicionAniadirFacturaPA.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="comboBoxAdicionAniadirFacturaPA.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="comboBoxAdicionAniadirFacturaPA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>333, 281</value>
+  </data>
+  <data name="comboBoxAdicionAniadirFacturaPA.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="comboBoxAdicionAniadirFacturaPA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>271, 33</value>
+  </data>
+  <data name="labelAdicionAniadirFacturaPA.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="labelAdicionAniadirFacturaPA.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelAdicionAniadirFacturaPA.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="labelAdicionAniadirFacturaPA.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelAdicionAniadirFacturaPA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>333, 245</value>
+  </data>
+  <data name="labelAdicionAniadirFacturaPA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 31</value>
+  </data>
+  <data name="labelAdicionAniadirFacturaPA.Text" xml:space="preserve">
+    <value>Adicion</value>
+  </data>
+  <data name="comboBoxPersonaAAniadirFactura.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="comboBoxPersonaAAniadirFactura.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="comboBoxPersonaAAniadirFactura.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 125</value>
+  </data>
+  <data name="comboBoxPersonaAAniadirFactura.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="comboBoxPersonaAAniadirFactura.Size" type="System.Drawing.Size, System.Drawing">
+    <value>309, 33</value>
+  </data>
+  <data name="label23.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="label23.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label23.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="label23.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 91</value>
+  </data>
+  <data name="label23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>249, 31</value>
+  </data>
+  <data name="label23.Text" xml:space="preserve">
+    <value>Persona autorizada</value>
+  </data>
+  <data name="label24.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="label24.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label24.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="label24.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>395, 91</value>
+  </data>
+  <data name="label24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>248, 31</value>
+  </data>
+  <data name="label24.Text" xml:space="preserve">
+    <value>Fondos disponibles</value>
+  </data>
+  <data name="button2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="button2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt</value>
+  </data>
+  <data name="button2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>381, 625</value>
+  </data>
+  <data name="button2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 52</value>
+  </data>
+  <data name="button2.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="button2.Text" xml:space="preserve">
+    <value>Añadir</value>
+  </data>
+  <data name="button3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="button3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt</value>
+  </data>
+  <data name="button3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 625</value>
+  </data>
+  <data name="button3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="button3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 52</value>
+  </data>
+  <data name="button3.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="button3.Text" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="label25.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label25.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 18pt, style=Bold</value>
+  </data>
+  <data name="label25.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>267, 19</value>
+  </data>
+  <data name="label25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 36</value>
+  </data>
+  <data name="label25.Text" xml:space="preserve">
+    <value>Añadir factura</value>
+  </data>
+  <data name="comboBoxProductoAniadirFacturaPA.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="comboBoxProductoAniadirFacturaPA.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="comboBoxProductoAniadirFacturaPA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>333, 203</value>
+  </data>
+  <data name="comboBoxProductoAniadirFacturaPA.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="comboBoxProductoAniadirFacturaPA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>310, 33</value>
+  </data>
+  <data name="label26.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="label26.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label26.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="label26.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label26.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 245</value>
+  </data>
+  <data name="label26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 31</value>
+  </data>
+  <data name="label26.Text" xml:space="preserve">
+    <value>Valor</value>
+  </data>
+  <data name="textBoxValorAniadirFacturaPA.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="textBoxValorAniadirFacturaPA.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="textBoxValorAniadirFacturaPA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 280</value>
+  </data>
+  <data name="textBoxValorAniadirFacturaPA.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="textBoxValorAniadirFacturaPA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>249, 34</value>
+  </data>
+  <data name="label27.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="label27.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label27.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="label27.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label27.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 165</value>
+  </data>
+  <data name="label27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 31</value>
+  </data>
+  <data name="label27.Text" xml:space="preserve">
+    <value>Categoria</value>
+  </data>
+  <data name="textBoxFondosAniadirFacturaPA.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="textBoxFondosAniadirFacturaPA.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="textBoxFondosAniadirFacturaPA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>395, 128</value>
+  </data>
+  <data name="textBoxFondosAniadirFacturaPA.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="textBoxFondosAniadirFacturaPA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>249, 34</value>
+  </data>
+  <data name="panelAniadirFacturaPersonaAu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>851, -667</value>
+  </data>
+  <data name="panelAniadirFacturaPersonaAu.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panelAniadirFacturaPersonaAu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>712, 691</value>
+  </data>
+  <data name="panelAniadirFacturaPersonaAu.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="comboBoxCategoriaAniadirFactura.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="comboBoxCategoriaAniadirFactura.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="comboBoxCategoriaAniadirFactura.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 203</value>
+  </data>
+  <data name="comboBoxCategoriaAniadirFactura.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="comboBoxCategoriaAniadirFactura.Size" type="System.Drawing.Size, System.Drawing">
+    <value>249, 33</value>
+  </data>
+  <data name="label17.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="label17.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label17.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="label17.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 31</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>Producto</value>
+  </data>
+  <data name="label16.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label16.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
+  </data>
+  <data name="label16.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>Adicion</value>
+  </data>
+  <data name="label15.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label15.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
+  </data>
+  <data name="label15.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 29</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>Ingredientes</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn10.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn11.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="tablaAdicionesAniadirFacturaSocio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>373, 384</value>
+  </data>
+  <data name="tablaAdicionesAniadirFacturaSocio.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tablaAdicionesAniadirFacturaSocio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>271, 223</value>
+  </data>
+  <data name="tablaAdicionesAniadirFacturaSocio.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn8.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn9.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="tablaIngredientesAniadirFacturaSocio.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tablaIngredientesAniadirFacturaSocio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>271, 223</value>
+  </data>
+  <data name="botonAgregarAdicionAniadirFacturaSocio.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="botonAgregarAdicionAniadirFacturaSocio.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="botonAgregarAdicionAniadirFacturaSocio.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="botonAgregarAdicionAniadirFacturaSocio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>609, 279</value>
+  </data>
+  <data name="botonAgregarAdicionAniadirFacturaSocio.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="botonAgregarAdicionAniadirFacturaSocio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 47</value>
+  </data>
+  <data name="botonAgregarAdicionAniadirFacturaSocio.Text" xml:space="preserve">
+    <value>+</value>
+  </data>
+  <data name="comboBoxAdicionAniadirFacturaSocio.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="comboBoxAdicionAniadirFacturaSocio.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="comboBoxAdicionAniadirFacturaSocio.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="comboBoxAdicionAniadirFacturaSocio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>333, 281</value>
+  </data>
+  <data name="comboBoxAdicionAniadirFacturaSocio.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="comboBoxAdicionAniadirFacturaSocio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>271, 33</value>
+  </data>
+  <data name="labelAdicionAniadirFacturaSocio.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="labelAdicionAniadirFacturaSocio.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelAdicionAniadirFacturaSocio.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="labelAdicionAniadirFacturaSocio.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelAdicionAniadirFacturaSocio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>333, 245</value>
+  </data>
+  <data name="labelAdicionAniadirFacturaSocio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 31</value>
+  </data>
+  <data name="labelAdicionAniadirFacturaSocio.Text" xml:space="preserve">
+    <value>Adicion</value>
+  </data>
+  <data name="comboBoxSocioAniadirFactura.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="comboBoxSocioAniadirFactura.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="comboBoxSocioAniadirFactura.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="comboBoxSocioAniadirFactura.Size" type="System.Drawing.Size, System.Drawing">
+    <value>309, 33</value>
+  </data>
+  <data name="label1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 91</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 31</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Socio</value>
+  </data>
+  <data name="labelFondosAniadirFactura.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="labelFondosAniadirFactura.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelFondosAniadirFactura.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="labelFondosAniadirFactura.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelFondosAniadirFactura.Location" type="System.Drawing.Point, System.Drawing">
+    <value>395, 91</value>
+  </data>
+  <data name="labelFondosAniadirFactura.Size" type="System.Drawing.Size, System.Drawing">
+    <value>248, 31</value>
+  </data>
+  <data name="labelFondosAniadirFactura.Text" xml:space="preserve">
+    <value>Fondos disponibles</value>
+  </data>
+  <data name="botonRegistrarAniadirFactura.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="botonRegistrarAniadirFactura.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt</value>
+  </data>
+  <data name="botonRegistrarAniadirFactura.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="botonRegistrarAniadirFactura.Location" type="System.Drawing.Point, System.Drawing">
+    <value>386, 625</value>
+  </data>
+  <data name="botonRegistrarAniadirFactura.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="botonRegistrarAniadirFactura.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 52</value>
+  </data>
+  <data name="botonRegistrarAniadirFactura.Text" xml:space="preserve">
+    <value>Añadir</value>
+  </data>
+  <data name="botonCancelarAniadirFactura.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="botonCancelarAniadirFactura.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt</value>
+  </data>
+  <data name="botonCancelarAniadirFactura.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="botonCancelarAniadirFactura.Location" type="System.Drawing.Point, System.Drawing">
+    <value>200, 625</value>
+  </data>
+  <data name="botonCancelarAniadirFactura.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="botonCancelarAniadirFactura.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 52</value>
+  </data>
+  <data name="botonCancelarAniadirFactura.Text" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="labelAniadirFacturaSocio.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelAniadirFacturaSocio.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 18pt, style=Bold</value>
+  </data>
+  <data name="labelAniadirFacturaSocio.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelAniadirFacturaSocio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>267, 19</value>
+  </data>
+  <data name="labelAniadirFacturaSocio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 36</value>
+  </data>
+  <data name="labelAniadirFacturaSocio.Text" xml:space="preserve">
+    <value>Añadir factura</value>
+  </data>
+  <data name="comboBoxProductoAniadirFactura.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="comboBoxProductoAniadirFactura.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="comboBoxProductoAniadirFactura.Location" type="System.Drawing.Point, System.Drawing">
+    <value>333, 203</value>
+  </data>
+  <data name="comboBoxProductoAniadirFactura.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="comboBoxProductoAniadirFactura.Size" type="System.Drawing.Size, System.Drawing">
+    <value>310, 33</value>
+  </data>
+  <data name="labelValorAniadirFactura.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="labelValorAniadirFactura.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelValorAniadirFactura.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="labelValorAniadirFactura.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelValorAniadirFactura.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 245</value>
+  </data>
+  <data name="labelValorAniadirFactura.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 31</value>
+  </data>
+  <data name="labelValorAniadirFactura.Text" xml:space="preserve">
+    <value>Valor</value>
+  </data>
+  <data name="textBoxValorAniadirFactura.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="textBoxValorAniadirFactura.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="textBoxValorAniadirFactura.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 280</value>
+  </data>
+  <data name="textBoxValorAniadirFactura.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="textBoxValorAniadirFactura.Size" type="System.Drawing.Size, System.Drawing">
+    <value>249, 34</value>
+  </data>
+  <data name="labelProductoAniadirFactura.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="labelProductoAniadirFactura.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelProductoAniadirFactura.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="labelProductoAniadirFactura.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelProductoAniadirFactura.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 165</value>
+  </data>
+  <data name="labelProductoAniadirFactura.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 31</value>
+  </data>
+  <data name="labelProductoAniadirFactura.Text" xml:space="preserve">
+    <value>Categoria</value>
+  </data>
+  <data name="textBoxFondosAniadirFactura.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="textBoxFondosAniadirFactura.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="textBoxFondosAniadirFactura.Location" type="System.Drawing.Point, System.Drawing">
+    <value>395, 128</value>
+  </data>
+  <data name="textBoxFondosAniadirFactura.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="textBoxFondosAniadirFactura.Size" type="System.Drawing.Size, System.Drawing">
+    <value>249, 34</value>
+  </data>
+  <data name="panelAniadirFacturaSocio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>953, -115</value>
+  </data>
+  <data name="panelAniadirFacturaSocio.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panelAniadirFacturaSocio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>712, 691</value>
+  </data>
+  <data name="panelAniadirFacturaSocio.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label14.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="label14.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label14.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="label14.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>248, 31</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>Fondos disponibles</value>
+  </data>
+  <data name="textBoxFondosListarFacturaSocio.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="textBoxFondosListarFacturaSocio.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="textBoxFondosListarFacturaSocio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 235</value>
+  </data>
+  <data name="textBoxFondosListarFacturaSocio.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="textBoxFondosListarFacturaSocio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>373, 34</value>
+  </data>
+  <data name="labelSocioListarFactura.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="labelSocioListarFactura.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelSocioListarFactura.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="labelSocioListarFactura.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelSocioListarFactura.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 11</value>
+  </data>
+  <data name="labelSocioListarFactura.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 31</value>
+  </data>
+  <data name="labelSocioListarFactura.Text" xml:space="preserve">
+    <value>Socio</value>
+  </data>
+  <data name="labelFacturaAPagarListarFactura.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="labelFacturaAPagarListarFactura.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelFacturaAPagarListarFactura.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="labelFacturaAPagarListarFactura.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelFacturaAPagarListarFactura.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 101</value>
+  </data>
+  <data name="labelFacturaAPagarListarFactura.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 31</value>
+  </data>
+  <data name="labelFacturaAPagarListarFactura.Text" xml:space="preserve">
+    <value>Factura a pagar</value>
+  </data>
+  <data name="comboBoxSocioListarFactura.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="comboBoxSocioListarFactura.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="comboBoxSocioListarFactura.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="comboBoxSocioListarFactura.Size" type="System.Drawing.Size, System.Drawing">
+    <value>373, 37</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn1.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="columnaDescipcionTablaFacturaSocio.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="columnaValorTablaFacturaSocio.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="tablaListarFacturaSocio.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="tablaListarFacturaSocio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 339</value>
+  </data>
+  <data name="tablaListarFacturaSocio.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tablaListarFacturaSocio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>379, 337</value>
+  </data>
+  <data name="tablaListarFacturaSocio.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="botonPagarListarFacturaSocio.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="botonPagarListarFacturaSocio.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="botonPagarListarFacturaSocio.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="botonPagarListarFacturaSocio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 285</value>
+  </data>
+  <data name="botonPagarListarFacturaSocio.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="botonPagarListarFacturaSocio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 47</value>
+  </data>
+  <data name="botonPagarListarFacturaSocio.Text" xml:space="preserve">
+    <value>Pagar</value>
+  </data>
+  <data name="comboBoxListarFacturaSocio.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="comboBoxListarFacturaSocio.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="comboBoxListarFacturaSocio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 137</value>
+  </data>
+  <data name="comboBoxListarFacturaSocio.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="comboBoxListarFacturaSocio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>373, 37</value>
+  </data>
+  <data name="panelListarFacturasSocio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 355</value>
+  </data>
+  <data name="panelListarFacturasSocio.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panelListarFacturasSocio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>379, 676</value>
+  </data>
+  <data name="panelListarFacturasSocio.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="panelListarFacturasSocio.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 97</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>269, 25</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Persona autorizada a eliminar</value>
+  </data>
+  <data name="label2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 17</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 25</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Socio responsable</value>
+  </data>
+  <data name="comboBoxSocioRPesonaA.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="comboBoxSocioRPesonaA.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt</value>
+  </data>
+  <data name="comboBoxSocioRPesonaA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 51</value>
+  </data>
+  <data name="comboBoxSocioRPesonaA.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="comboBoxSocioRPesonaA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>359, 28</value>
+  </data>
+  <data name="botonEliminarPersonaA.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="botonEliminarPersonaA.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="botonEliminarPersonaA.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="botonEliminarPersonaA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>103, 171</value>
+  </data>
+  <data name="botonEliminarPersonaA.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="botonEliminarPersonaA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 47</value>
+  </data>
+  <data name="botonEliminarPersonaA.Text" xml:space="preserve">
+    <value>Eliminar</value>
+  </data>
+  <data name="comboBoxListarPersonaA.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="comboBoxListarPersonaA.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt</value>
+  </data>
+  <data name="comboBoxListarPersonaA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 131</value>
+  </data>
+  <data name="comboBoxListarPersonaA.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="comboBoxListarPersonaA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>359, 28</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn2.HeaderText" xml:space="preserve">
+    <value>N</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn2.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn3.HeaderText" xml:space="preserve">
+    <value>Cédula</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn3.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn4.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="tablaListarPersonaA.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="tablaListarPersonaA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 225</value>
+  </data>
+  <data name="tablaListarPersonaA.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tablaListarPersonaA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>377, 387</value>
+  </data>
+  <data name="panelListarPersonaA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1029, 519</value>
+  </data>
+  <data name="panelListarPersonaA.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panelListarPersonaA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>377, 612</value>
+  </data>
+  <data name="panelListarPersonaA.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="labelNombrePersonaA.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="labelNombrePersonaA.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelNombrePersonaA.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="labelNombrePersonaA.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelNombrePersonaA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>53, 285</value>
+  </data>
+  <data name="labelNombrePersonaA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>349, 31</value>
+  </data>
+  <data name="labelNombrePersonaA.Text" xml:space="preserve">
+    <value>Nombre persona autorizada</value>
+  </data>
+  <data name="comboBoxSocioRAfiliarPersonaA.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="comboBoxSocioRAfiliarPersonaA.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.8pt</value>
+  </data>
+  <data name="comboBoxSocioRAfiliarPersonaA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>53, 139</value>
+  </data>
+  <data name="comboBoxSocioRAfiliarPersonaA.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="comboBoxSocioRAfiliarPersonaA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>339, 30</value>
+  </data>
+  <data name="botonRegistrarPersonaA.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="botonRegistrarPersonaA.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="botonRegistrarPersonaA.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="botonRegistrarPersonaA.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="botonRegistrarPersonaA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 48</value>
+  </data>
+  <data name="botonRegistrarPersonaA.Text" xml:space="preserve">
+    <value>Registrar</value>
+  </data>
+  <data name="botonCancelarPersonaA.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="botonCancelarPersonaA.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="botonCancelarPersonaA.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="botonCancelarPersonaA.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="botonCancelarPersonaA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 48</value>
+  </data>
+  <data name="botonCancelarPersonaA.Text" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="labelAfiliarPersonaA.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelAfiliarPersonaA.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt, style=Bold</value>
+  </data>
+  <data name="labelAfiliarPersonaA.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelAfiliarPersonaA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>80, 27</value>
+  </data>
+  <data name="labelAfiliarPersonaA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>310, 29</value>
+  </data>
+  <data name="labelAfiliarPersonaA.Text" xml:space="preserve">
+    <value>Afiliar persona autorizada</value>
+  </data>
+  <data name="labelCedulaPersonaA.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="labelCedulaPersonaA.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelCedulaPersonaA.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="labelCedulaPersonaA.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelCedulaPersonaA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>53, 192</value>
+  </data>
+  <data name="labelCedulaPersonaA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>339, 31</value>
+  </data>
+  <data name="labelCedulaPersonaA.Text" xml:space="preserve">
+    <value>Cedula persona autorizada</value>
+  </data>
+  <data name="textBoxNombrePersonaA.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="textBoxNombrePersonaA.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="textBoxNombrePersonaA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>53, 321</value>
+  </data>
+  <data name="textBoxNombrePersonaA.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="textBoxNombrePersonaA.MaxLength" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="textBoxNombrePersonaA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>339, 34</value>
+  </data>
+  <data name="labelSocioResponsablePersonaA.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="labelSocioResponsablePersonaA.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelSocioResponsablePersonaA.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="labelSocioResponsablePersonaA.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelSocioResponsablePersonaA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>53, 103</value>
+  </data>
+  <data name="labelSocioResponsablePersonaA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>237, 31</value>
+  </data>
+  <data name="labelSocioResponsablePersonaA.Text" xml:space="preserve">
+    <value>Socio responsable</value>
+  </data>
+  <data name="textBoxCedulaPersonaA.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="textBoxCedulaPersonaA.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="textBoxCedulaPersonaA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>53, 228</value>
+  </data>
+  <data name="textBoxCedulaPersonaA.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="textBoxCedulaPersonaA.MaxLength" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="textBoxCedulaPersonaA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>339, 34</value>
+  </data>
+  <data name="panelAfiliarPersonaAutorizada.Location" type="System.Drawing.Point, System.Drawing">
+    <value>329, 461</value>
+  </data>
+  <data name="panelAfiliarPersonaAutorizada.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panelAfiliarPersonaAutorizada.Size" type="System.Drawing.Size, System.Drawing">
+    <value>447, 483</value>
+  </data>
+  <data name="panelAfiliarPersonaAutorizada.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="comboBoxSocioFondosDisponibles.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="comboBoxSocioFondosDisponibles.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="comboBoxSocioFondosDisponibles.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="comboBoxSocioFondosDisponibles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>321, 37</value>
+  </data>
+  <data name="labelAumentoFondosDisponiblesSocio.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="labelAumentoFondosDisponiblesSocio.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelAumentoFondosDisponiblesSocio.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="labelAumentoFondosDisponiblesSocio.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelAumentoFondosDisponiblesSocio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 299</value>
+  </data>
+  <data name="labelAumentoFondosDisponiblesSocio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 31</value>
+  </data>
+  <data name="labelAumentoFondosDisponiblesSocio.Text" xml:space="preserve">
+    <value>Aumento</value>
+  </data>
+  <data name="textBoxAumentoFondosDisponiblesSocio.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="textBoxAumentoFondosDisponiblesSocio.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="textBoxAumentoFondosDisponiblesSocio.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="textBoxAumentoFondosDisponiblesSocio.MaxLength" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="textBoxAumentoFondosDisponiblesSocio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>321, 34</value>
+  </data>
+  <data name="botonAumentarFondosDisponiblesSocio.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="botonAumentarFondosDisponiblesSocio.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="botonAumentarFondosDisponiblesSocio.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="botonAumentarFondosDisponiblesSocio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>250, 397</value>
+  </data>
+  <data name="botonAumentarFondosDisponiblesSocio.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="botonAumentarFondosDisponiblesSocio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 48</value>
+  </data>
+  <data name="botonAumentarFondosDisponiblesSocio.Text" xml:space="preserve">
+    <value>Aumentar</value>
+  </data>
+  <data name="botonCancelarFondosDisponiblesSocio.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="botonCancelarFondosDisponiblesSocio.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="botonCancelarFondosDisponiblesSocio.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="botonCancelarFondosDisponiblesSocio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>67, 397</value>
+  </data>
+  <data name="botonCancelarFondosDisponiblesSocio.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="botonCancelarFondosDisponiblesSocio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 48</value>
+  </data>
+  <data name="botonCancelarFondosDisponiblesSocio.Text" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="labelFondosDisponiblesSocio.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelFondosDisponiblesSocio.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt, style=Bold</value>
+  </data>
+  <data name="labelFondosDisponiblesSocio.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelFondosDisponiblesSocio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 51</value>
+  </data>
+  <data name="labelFondosDisponiblesSocio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>244, 29</value>
+  </data>
+  <data name="labelFondosDisponiblesSocio.Text" xml:space="preserve">
+    <value>Fondos disponibles</value>
+  </data>
+  <data name="labelSaldoFondosDisponiblesSocio.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="labelSaldoFondosDisponiblesSocio.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelSaldoFondosDisponiblesSocio.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="labelSaldoFondosDisponiblesSocio.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelSaldoFondosDisponiblesSocio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 213</value>
+  </data>
+  <data name="labelSaldoFondosDisponiblesSocio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 31</value>
+  </data>
+  <data name="labelSaldoFondosDisponiblesSocio.Text" xml:space="preserve">
+    <value>Saldo actual</value>
+  </data>
+  <data name="textBoxSaldoFondosDisponiblesSocio.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="textBoxSaldoFondosDisponiblesSocio.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="textBoxSaldoFondosDisponiblesSocio.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="textBoxSaldoFondosDisponiblesSocio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>321, 34</value>
+  </data>
+  <data name="labelCedulaFondosDisponiblesSocio.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="labelCedulaFondosDisponiblesSocio.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelCedulaFondosDisponiblesSocio.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="labelCedulaFondosDisponiblesSocio.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelCedulaFondosDisponiblesSocio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 31</value>
+  </data>
+  <data name="labelCedulaFondosDisponiblesSocio.Text" xml:space="preserve">
+    <value>Socio</value>
+  </data>
+  <data name="panelListarFondosDisponiblesSocio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>449, 175</value>
+  </data>
+  <data name="panelListarFondosDisponiblesSocio.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panelListarFondosDisponiblesSocio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>447, 483</value>
+  </data>
+  <data name="panelListarFondosDisponiblesSocio.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="botonEliminarListarSocio.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="botonEliminarListarSocio.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="botonEliminarListarSocio.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="botonEliminarListarSocio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>134, 61</value>
+  </data>
+  <data name="botonEliminarListarSocio.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="botonEliminarListarSocio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>234, 47</value>
+  </data>
+  <data name="botonEliminarListarSocio.Text" xml:space="preserve">
+    <value>Eliminar</value>
+  </data>
+  <data name="comboBoxListarSocio.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="comboBoxListarSocio.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="comboBoxListarSocio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 4</value>
+  </data>
+  <data name="comboBoxListarSocio.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="comboBoxListarSocio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>486, 33</value>
+  </data>
+  <data name="ColumnaNSocio.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="ColumnaCedulaSocio.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="ColumnaNombreSocio.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="ColumnaSuscripcionSocio.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="tablaListarSocio.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="tablaListarSocio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 129</value>
+  </data>
+  <data name="tablaListarSocio.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tablaListarSocio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>504, 387</value>
+  </data>
+  <data name="panelListarSocio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>407, -15</value>
+  </data>
+  <data name="panelListarSocio.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panelListarSocio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>504, 516</value>
+  </data>
+  <data name="panelListarSocio.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="botonRegistrarSocioAfiliar.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="botonRegistrarSocioAfiliar.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="botonRegistrarSocioAfiliar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="botonRegistrarSocioAfiliar.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="botonRegistrarSocioAfiliar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 48</value>
+  </data>
+  <data name="botonRegistrarSocioAfiliar.Text" xml:space="preserve">
+    <value>Registrar</value>
+  </data>
+  <data name="botonCancelarSocioAfiliar.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="botonCancelarSocioAfiliar.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="botonCancelarSocioAfiliar.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="botonCancelarSocioAfiliar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 48</value>
+  </data>
+  <data name="botonCancelarSocioAfiliar.Text" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="labelAfiliarSocio.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelAfiliarSocio.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt, style=Bold</value>
+  </data>
+  <data name="labelAfiliarSocio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 29</value>
+  </data>
+  <data name="labelAfiliarSocio.Text" xml:space="preserve">
+    <value>Afiliar socio</value>
+  </data>
+  <data name="comboBoxSuscripcionSocioAfiliar.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="comboBoxSuscripcionSocioAfiliar.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="comboBoxSuscripcionSocioAfiliar.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="comboBoxSuscripcionSocioAfiliar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 37</value>
+  </data>
+  <data name="labelNombreSocioAfiliar.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="labelNombreSocioAfiliar.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelNombreSocioAfiliar.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="labelNombreSocioAfiliar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelNombreSocioAfiliar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 31</value>
+  </data>
+  <data name="labelNombreSocioAfiliar.Text" xml:space="preserve">
+    <value>Nombre del socio</value>
+  </data>
+  <data name="textBoxNombreSocioAfiliar.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="textBoxNombreSocioAfiliar.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="textBoxNombreSocioAfiliar.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="textBoxNombreSocioAfiliar.MaxLength" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="textBoxNombreSocioAfiliar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>321, 34</value>
+  </data>
+  <data name="labelCedulaDelSocioAfiliar.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="labelCedulaDelSocioAfiliar.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelCedulaDelSocioAfiliar.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="labelCedulaDelSocioAfiliar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelCedulaDelSocioAfiliar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 31</value>
+  </data>
+  <data name="labelCedulaDelSocioAfiliar.Text" xml:space="preserve">
+    <value>Cédula del socio</value>
+  </data>
+  <data name="textBoxCedulaSocioAfiliar.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="textBoxCedulaSocioAfiliar.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="textBoxCedulaSocioAfiliar.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="textBoxCedulaSocioAfiliar.MaxLength" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="textBoxCedulaSocioAfiliar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>321, 34</value>
+  </data>
+  <data name="panelAfiliarSocio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-57, -33</value>
+  </data>
+  <data name="panelAfiliarSocio.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panelAfiliarSocio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>447, 483</value>
+  </data>
+  <data name="panelAfiliarSocio.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="panelContenedorDerecho.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panelContenedorDerecho.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panelContenedorDerecho.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1056, 959</value>
+  </data>
+  <data name="label28.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="label28.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label28.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.8pt</value>
+  </data>
+  <data name="label28.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label28.Location" type="System.Drawing.Point, System.Drawing">
+    <value>59, 19</value>
+  </data>
+  <data name="label28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>292, 44</value>
+  </data>
+  <data name="label28.Text" xml:space="preserve">
+    <value>Seleccione el socio responsable de
+la persona autorizada.
+</value>
+  </data>
+  <data name="label28.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="botonAceptarSocioAniadirFacturaPersonaA.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="botonAceptarSocioAniadirFacturaPersonaA.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt</value>
+  </data>
+  <data name="botonAceptarSocioAniadirFacturaPersonaA.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="botonAceptarSocioAniadirFacturaPersonaA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>121, 129</value>
+  </data>
+  <data name="botonAceptarSocioAniadirFacturaPersonaA.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="botonAceptarSocioAniadirFacturaPersonaA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 52</value>
+  </data>
+  <data name="botonAceptarSocioAniadirFacturaPersonaA.Text" xml:space="preserve">
+    <value>Aceptar</value>
+  </data>
+  <data name="comboBoxSocioRAniadirFacturaPersonaA.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="comboBoxSocioRAniadirFacturaPersonaA.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="comboBoxSocioRAniadirFacturaPersonaA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 81</value>
+  </data>
+  <data name="comboBoxSocioRAniadirFacturaPersonaA.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="comboBoxSocioRAniadirFacturaPersonaA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>364, 33</value>
+  </data>
+  <data name="comboBoxSocioRAniadirFacturaPersonaA.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="panelSocioAniadirFacturaPersonaAu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>879, 281</value>
+  </data>
+  <data name="panelSocioAniadirFacturaPersonaAu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>394, 191</value>
+  </data>
+  <data name="panelSocioAniadirFacturaPersonaAu.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 20</value>
+  </data>
+  <data name="$this.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1457, 959</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Club social</value>
+  </data>
+</root>
